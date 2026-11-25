@@ -1,0 +1,8 @@
+# target image + an isolated venv for the SMS engine (versions as in ENVIRONMENT.md)
+FROM sms-aar:ba10042
+RUN uv venv /opt/harness --python /usr/local/bin/python \
+ && uv pip install --python /opt/harness/bin/python --exclude-newer 2026-09-12 httpx==0.28.1 psycopg2-binary==2.9.13 \
+ && mkdir -p /opt/sms/targets /opt/sms/venvs/any-auto-register/bin /opt/sms/results \
+ && ln -s /app /opt/sms/targets/lxf746_any-auto-register \
+ && ln -s /usr/local/bin/python /opt/sms/venvs/any-auto-register/bin/python \
+ && test ! -e /app/account_manager.db

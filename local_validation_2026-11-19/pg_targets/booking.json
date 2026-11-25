@@ -1,0 +1,5 @@
+{"id":"booking","repo":"guduchango/fastapi-booking","app":"app.main:app","port":9005,
+ "python":"3.11","db":"postgres","db_name":"sms_booking",
+ "deps":{"kind":"requirements","files":["requirements.txt"]},
+ "env":{"DATABASE_URL":"postgresql://acb:acb@localhost:5432/sms_booking","CELERY_BROKER_URL":"redis://localhost:6379/1","CELERY_RESULT_BACKEND":"redis://localhost:6379/1"},
+ "migrate":[]}

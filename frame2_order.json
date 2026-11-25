@@ -1,0 +1,6176 @@
+{
+ "seed": 20260906,
+ "n_index": 2678,
+ "n_eligible": 699,
+ "order": [
+  {
+   "repo": "mrtian2016/hass-panel",
+   "stars": 833,
+   "n_deps": 22,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ParisNeo/lollms-webui",
+   "stars": 4788,
+   "n_deps": 115,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "scaleapi/llm-engine",
+   "stars": 808,
+   "n_deps": 80,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "tencentmusic/cube-studio",
+   "stars": 4915,
+   "n_deps": 112,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "SylphAI-Inc/AdalFlow",
+   "stars": 4162,
+   "n_deps": 51,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "briefercloud/briefer",
+   "stars": 4307,
+   "n_deps": 15,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "potpie-ai/potpie",
+   "stars": 5407,
+   "n_deps": 108,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "rafsaf/minimal-fastapi-postgres-template",
+   "stars": 428,
+   "n_deps": 17,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "hystax/optscale",
+   "stars": 2089,
+   "n_deps": 77,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "PrefectHQ/ControlFlow",
+   "stars": 1345,
+   "n_deps": 35,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "bmeares/Meerschaum",
+   "stars": 132,
+   "n_deps": 22,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "paurakhsharma/python-microservice-fastapi",
+   "stars": 342,
+   "n_deps": 6,
+   "rel": [
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "MartinThoma/algorithms",
+   "stars": 237,
+   "n_deps": 115,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Mai-with-u/MaiBot",
+   "stars": 5043,
+   "n_deps": 60,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "imankulov/linguee-api",
+   "stars": 184,
+   "n_deps": 10,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "Shaunwei/RealChar",
+   "stars": 6210,
+   "n_deps": 33,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dograh-hq/dograh",
+   "stars": 3912,
+   "n_deps": 40,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "NovaSky-AI/SkyRL",
+   "stars": 1914,
+   "n_deps": 100,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "ZHangZHengEric/Sage",
+   "stars": 1194,
+   "n_deps": 74,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "wxy2077/FastAdmin",
+   "stars": 171,
+   "n_deps": 12,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "chi111i/BypassAIGC",
+   "stars": 1882,
+   "n_deps": 15,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "CaviraOSS/OpenMemory",
+   "stars": 4171,
+   "n_deps": 35,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "Marktechpost/AI-Agents-Projects-Tutorials",
+   "stars": 2654,
+   "n_deps": 94,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "yuanzhoulvpi2017/tiny_python",
+   "stars": 151,
+   "n_deps": 22,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "fim-ai/fim-one",
+   "stars": 1240,
+   "n_deps": 36,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "bandundu/email-archiver",
+   "stars": 174,
+   "n_deps": 14,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "SpecterOps/Nemesis",
+   "stars": 781,
+   "n_deps": 137,
+   "rel": [
+    "asyncpg",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Paper2Poster/Paper2Poster",
+   "stars": 3737,
+   "n_deps": 134,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "smalltong02/keras-llm-robot",
+   "stars": 175,
+   "n_deps": 68,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "BCG-X-Official/agentkit",
+   "stars": 1771,
+   "n_deps": 29,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "langflow-ai/openrag",
+   "stars": 4098,
+   "n_deps": 70,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "ed-donner/llm_engineering",
+   "stars": 6267,
+   "n_deps": 216,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "paradedb/retake",
+   "stars": 698,
+   "n_deps": 16,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "DataDog/integrations-core",
+   "stars": 1037,
+   "n_deps": 160,
+   "rel": [
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "coleam00/ottomator-agents",
+   "stars": 5615,
+   "n_deps": 94,
+   "rel": [
+    "asyncpg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "PrettyPrinted/youtube_video_code",
+   "stars": 683,
+   "n_deps": 129,
+   "rel": [
+    "alembic",
+    "databases",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "jianzfb/antgo",
+   "stars": 224,
+   "n_deps": 91,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "abnamro/repository-scanner",
+   "stars": 142,
+   "n_deps": 34,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "apache/hamilton",
+   "stars": 2513,
+   "n_deps": 169,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "digitalinnovationone/trilha-python-dio",
+   "stars": 4984,
+   "n_deps": 27,
+   "rel": [
+    "alembic",
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Arindam200/awesome-ai-apps",
+   "stars": 12546,
+   "n_deps": 166,
+   "rel": [
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ShilongLee/Crawler",
+   "stars": 1368,
+   "n_deps": 10,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "gnuboard/g6",
+   "stars": 231,
+   "n_deps": 25,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "0xemmkty/QuantMuse",
+   "stars": 2600,
+   "n_deps": 29,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "uluckyXH/OpenMOSS",
+   "stars": 1275,
+   "n_deps": 10,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "LeoYeAI/openclaw-master-skills",
+   "stars": 2009,
+   "n_deps": 273,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "realpython/materials",
+   "stars": 5164,
+   "n_deps": 225,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "census-instrumentation/opencensus-python",
+   "stars": 669,
+   "n_deps": 32,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "cashubtc/nutshell",
+   "stars": 336,
+   "n_deps": 40,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "osuAkatsuki/bancho.py",
+   "stars": 217,
+   "n_deps": 28,
+   "rel": [
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Azure/azure-dev",
+   "stars": 378,
+   "n_deps": 23,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "long2ice/rearq",
+   "stars": 150,
+   "n_deps": 14,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "Eventual-Inc/Daft",
+   "stars": 5552,
+   "n_deps": 115,
+   "rel": [
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Agenta-AI/agenta",
+   "stars": 4180,
+   "n_deps": 123,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ray-project/llm-applications",
+   "stars": 1855,
+   "n_deps": 22,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "morphik-org/morphik-core",
+   "stars": 3604,
+   "n_deps": 65,
+   "rel": [
+    "asyncpg",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "PrefectHQ/marvin",
+   "stars": 6166,
+   "n_deps": 61,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dataease/SQLBot",
+   "stars": 6169,
+   "n_deps": 42,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "HuiDBK/HuiHome",
+   "stars": 136,
+   "n_deps": 13,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "sentient-agi/ROMA",
+   "stars": 5068,
+   "n_deps": 43,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "karanhudia/borg-ui",
+   "stars": 1487,
+   "n_deps": 23,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "github/codeql",
+   "stars": 9966,
+   "n_deps": 262,
+   "rel": [
+    "aiosqlite",
+    "asyncpg",
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "gis-ops/tutorials",
+   "stars": 161,
+   "n_deps": 27,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "jamwithai/production-agentic-rag-course",
+   "stars": 6150,
+   "n_deps": 19,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "SonarSource/sonar-python",
+   "stars": 229,
+   "n_deps": 214,
+   "rel": [
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "julep-ai/julep",
+   "stars": 6606,
+   "n_deps": 121,
+   "rel": [
+    "asyncpg",
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "Opentrons/opentrons",
+   "stars": 425,
+   "n_deps": 122,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "artemonsh/fastapi_course",
+   "stars": 357,
+   "n_deps": 22,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "LuisLuii/FastAPIQuickCRUD",
+   "stars": 249,
+   "n_deps": 8,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "squaredev-io/whitebox",
+   "stars": 182,
+   "n_deps": 27,
+   "rel": [
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Light-Heart-Labs/DreamServer",
+   "stars": 1851,
+   "n_deps": 47,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "igorbenav/fastcrud",
+   "stars": 448,
+   "n_deps": 8,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "sligter/LandPPT",
+   "stars": 3303,
+   "n_deps": 48,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "daveshap/ACE_Framework",
+   "stars": 1424,
+   "n_deps": 44,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "DemonDamon/FinnewsHunter",
+   "stars": 1426,
+   "n_deps": 47,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "SkyworkAI/DeepResearchAgent",
+   "stars": 3409,
+   "n_deps": 133,
+   "rel": [
+    "aiosqlite",
+    "asyncpg",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "transformerlab/transformerlab-app",
+   "stars": 5092,
+   "n_deps": 113,
+   "rel": [
+    "aiosqlite",
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "OwlAIProject/Owl",
+   "stars": 470,
+   "n_deps": 28,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "zilliztech/GPTCache",
+   "stars": 8057,
+   "n_deps": 45,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "zhinianboke/xianyu-auto-reply",
+   "stars": 4811,
+   "n_deps": 33,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "lorenzocesconetto/fastapi-postgresql",
+   "stars": 164,
+   "n_deps": 14,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "run-llama/sec-insights",
+   "stars": 2602,
+   "n_deps": 25,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+   "stars": 1350,
+   "n_deps": 78,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "hunvreus/devpush",
+   "stars": 4662,
+   "n_deps": 28,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "bitfumes/fastapi-course",
+   "stars": 281,
+   "n_deps": 5,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "inclusionAI/AWorld",
+   "stars": 1201,
+   "n_deps": 150,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "gaganmanku96/Finding-missing-person-using-AI",
+   "stars": 392,
+   "n_deps": 20,
+   "rel": [
+    "psycopg2",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "wuranxu/pity",
+   "stars": 648,
+   "n_deps": 27,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "argilla-io/argilla",
+   "stars": 4997,
+   "n_deps": 87,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "teamhide/fastapi-boilerplate",
+   "stars": 781,
+   "n_deps": 15,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "lxf746/any-auto-register",
+   "stars": 2491,
+   "n_deps": 18,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "pixeltable/pixeltable",
+   "stars": 1570,
+   "n_deps": 90,
+   "rel": [
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "NVIDIA/NeMo-Agent-Toolkit",
+   "stars": 2346,
+   "n_deps": 179,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "mawoka-myblock/ClassQuiz",
+   "stars": 411,
+   "n_deps": 36,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "mwmbl/mwmbl",
+   "stars": 994,
+   "n_deps": 59,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "LazyAGI/LazyLLM",
+   "stars": 3839,
+   "n_deps": 83,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "sysid/sse-starlette",
+   "stars": 566,
+   "n_deps": 18,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "zhouxiaoka/autoclip",
+   "stars": 5506,
+   "n_deps": 31,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "huseinzol05/Gather-Deployment",
+   "stars": 352,
+   "n_deps": 71,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "koreainvestment/open-trading-api",
+   "stars": 1455,
+   "n_deps": 30,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "PacktPublishing/Building-Data-Science-Applications-with-FastAPI",
+   "stars": 308,
+   "n_deps": 22,
+   "rel": [
+    "alembic",
+    "databases",
+    "sqlalchemy",
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "microsoft/magentic-ui",
+   "stars": 9876,
+   "n_deps": 39,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "bunkerity/bunkerweb",
+   "stars": 10629,
+   "n_deps": 88,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "EvoAgentX/EvoAgentX",
+   "stars": 3047,
+   "n_deps": 70,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "venkataravuri/e-commerce-microservices-sample",
+   "stars": 257,
+   "n_deps": 5,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "elizaOS/eliza",
+   "stars": 18484,
+   "n_deps": 580,
+   "rel": [
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "modal-labs/quillman",
+   "stars": 1205,
+   "n_deps": 22,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "posit-dev/positron",
+   "stars": 4151,
+   "n_deps": 100,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "conda-incubator/conda-store",
+   "stars": 149,
+   "n_deps": 38,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "openagents-org/openagents",
+   "stars": 3593,
+   "n_deps": 48,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "jerlendds/osintbuddy",
+   "stars": 730,
+   "n_deps": 31,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "TransformerOptimus/SuperAGI",
+   "stars": 17561,
+   "n_deps": 51,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "robocorp/robocorp",
+   "stars": 382,
+   "n_deps": 65,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "InternScience/InternAgent",
+   "stars": 1310,
+   "n_deps": 215,
+   "rel": [
+    "aiosqlite",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "AgentEra/Agently",
+   "stars": 1584,
+   "n_deps": 30,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "run-llama/llama-hub",
+   "stars": 3356,
+   "n_deps": 171,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "allmonday/pydantic-resolve",
+   "stars": 142,
+   "n_deps": 18,
+   "rel": [
+    "sqlalchemy",
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "pipeshub-ai/pipeshub-ai",
+   "stars": 2919,
+   "n_deps": 157,
+   "rel": [
+    "asyncpg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "camel-ai/camel",
+   "stars": 17128,
+   "n_deps": 164,
+   "rel": [
+    "aiosqlite",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Jaseci-Labs/jaseci",
+   "stars": 148,
+   "n_deps": 315,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "poco-ai/poco-claw",
+   "stars": 1325,
+   "n_deps": 30,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Scille/parsec-cloud",
+   "stars": 259,
+   "n_deps": 26,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "bentoml/BentoML",
+   "stars": 8677,
+   "n_deps": 129,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "rochacbruno/python-base",
+   "stars": 208,
+   "n_deps": 18,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "wandb/weave",
+   "stars": 945,
+   "n_deps": 157,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "krishnaik06/The-Grand-Complete-Data-Science-Materials",
+   "stars": 8820,
+   "n_deps": 548,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dataelement/bisheng",
+   "stars": 11434,
+   "n_deps": 151,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "canonical/maas",
+   "stars": 370,
+   "n_deps": 107,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "testcontainers/testcontainers-python",
+   "stars": 2221,
+   "n_deps": 66,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "xiaoxiaolulu/EasyPost",
+   "stars": 584,
+   "n_deps": 51,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "modal-labs/modal-examples",
+   "stars": 1213,
+   "n_deps": 174,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "dstackai/dstack",
+   "stars": 2154,
+   "n_deps": 95,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "AgentOps-AI/agentops",
+   "stars": 5606,
+   "n_deps": 90,
+   "rel": [
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "wazuh/wazuh",
+   "stars": 11955,
+   "n_deps": 139,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Klavis-AI/klavis",
+   "stars": 5748,
+   "n_deps": 103,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "bdtinc/maskcam",
+   "stars": 243,
+   "n_deps": 28,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "EmbeddedLLM/JamAIBase",
+   "stars": 1025,
+   "n_deps": 79,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "PurpleAILAB/Decepticon",
+   "stars": 4189,
+   "n_deps": 39,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "Teahouse-Studios/akari-bot",
+   "stars": 189,
+   "n_deps": 82,
+   "rel": [
+    "sqlalchemy",
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "sajjadium/ctf-archives",
+   "stars": 1483,
+   "n_deps": 648,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "superlinked/sie",
+   "stars": 2029,
+   "n_deps": 147,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "atpuxiner/fastapi-scaf",
+   "stars": 1059,
+   "n_deps": 15,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "FlowElement-ai/m_flow",
+   "stars": 4198,
+   "n_deps": 74,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "PacktPublishing/Building-Python-Microservices-with-FastAPI",
+   "stars": 264,
+   "n_deps": 77,
+   "rel": [
+    "gino",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dot-agent/nextpy",
+   "stars": 2337,
+   "n_deps": 221,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "wwwzhouhui/dify-for-dsl",
+   "stars": 3749,
+   "n_deps": 44,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "data-infra/cube-studio",
+   "stars": 2202,
+   "n_deps": 97,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "cscs181/QQ-GitHub-Bot",
+   "stars": 283,
+   "n_deps": 19,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "MadcowD/ell",
+   "stars": 5871,
+   "n_deps": 46,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "SamWarden/user_service",
+   "stars": 179,
+   "n_deps": 18,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "EverMind-AI/EverOS",
+   "stars": 6414,
+   "n_deps": 109,
+   "rel": [
+    "aiosqlite",
+    "psycopg",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "su-kaka/gcli2api",
+   "stars": 4846,
+   "n_deps": 15,
+   "rel": [
+    "aiosqlite",
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "arthurio/fastapi-filter",
+   "stars": 184,
+   "n_deps": 16,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Arize-ai/phoenix",
+   "stars": 10008,
+   "n_deps": 163,
+   "rel": [
+    "aiosqlite",
+    "alembic",
+    "asyncpg",
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "internetarchive/openlibrary",
+   "stars": 6613,
+   "n_deps": 57,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "newrelic/newrelic-python-agent",
+   "stars": 178,
+   "n_deps": 159,
+   "rel": [
+    "asyncpg",
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "agronholm/apscheduler",
+   "stars": 7505,
+   "n_deps": 29,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "bytewiz3/TravelGPT",
+   "stars": 1020,
+   "n_deps": 17,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "laurolins/nanocube",
+   "stars": 734,
+   "n_deps": 5,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "zoriya/Kyoo",
+   "stars": 2472,
+   "n_deps": 16,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "Ananto30/zero",
+   "stars": 569,
+   "n_deps": 23,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "kevoreilly/CAPEv2",
+   "stars": 3283,
+   "n_deps": 131,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "alibaba/Logics-Parsing",
+   "stars": 1379,
+   "n_deps": 258,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "OpenLineage/OpenLineage",
+   "stars": 2497,
+   "n_deps": 52,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Sinaptik-AI/panda-etl",
+   "stars": 262,
+   "n_deps": 12,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "liaogx/fastapi-tutorial",
+   "stars": 1409,
+   "n_deps": 7,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Admyral-Security/admyral",
+   "stars": 191,
+   "n_deps": 31,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "garinasset/leak-check",
+   "stars": 3900,
+   "n_deps": 4,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "aigc-apps/PAI-RAG",
+   "stars": 230,
+   "n_deps": 145,
+   "rel": [
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "likeflyme/cloudbak",
+   "stars": 1230,
+   "n_deps": 26,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "kortix-ai/suna",
+   "stars": 19807,
+   "n_deps": 90,
+   "rel": [
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "patched-codes/patchwork",
+   "stars": 1561,
+   "n_deps": 40,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "apocas/restai",
+   "stars": 336,
+   "n_deps": 77,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "guillevc/yubal",
+   "stars": 1292,
+   "n_deps": 22,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "EstrellaXD/Auto_Bangumi",
+   "stars": 8062,
+   "n_deps": 32,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "jujumilk3/fastapi-clean-architecture",
+   "stars": 193,
+   "n_deps": 13,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "11cafe/jaaz",
+   "stars": 6312,
+   "n_deps": 32,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "ycd/manage-fastapi",
+   "stars": 1903,
+   "n_deps": 8,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "fetchai/uAgents",
+   "stars": 1585,
+   "n_deps": 85,
+   "rel": [
+    "sqlalchemy",
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "grafana/beyla",
+   "stars": 2002,
+   "n_deps": 23,
+   "rel": [
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "zilliztech/akcio",
+   "stars": 240,
+   "n_deps": 24,
+   "rel": [
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "CMHopeSunshine/LittlePaimon",
+   "stars": 1167,
+   "n_deps": 26,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "getsentry/sentry-python",
+   "stars": 2202,
+   "n_deps": 138,
+   "rel": [
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "allwefantasy/auto-coder",
+   "stars": 1219,
+   "n_deps": 81,
+   "rel": [
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "SolarEdgeTech/pyctuator",
+   "stars": 175,
+   "n_deps": 15,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ChuloAI/BrainChulo",
+   "stars": 138,
+   "n_deps": 22,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "tropicoo/yt-dlp-bot",
+   "stars": 189,
+   "n_deps": 26,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "cloudify-cosmo/cloudify-manager",
+   "stars": 147,
+   "n_deps": 47,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "PySpur-Dev/PySpur",
+   "stars": 5735,
+   "n_deps": 64,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "wandb/wandbot",
+   "stars": 219,
+   "n_deps": 56,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "openreplay/openreplay",
+   "stars": 12092,
+   "n_deps": 52,
+   "rel": [
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "pablomarin/GPT-Azure-Search-Engine",
+   "stars": 360,
+   "n_deps": 33,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "pulumi/examples",
+   "stars": 2578,
+   "n_deps": 46,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "mizhexiaoxiao/vue-fastapi-admin",
+   "stars": 2156,
+   "n_deps": 10,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "arkohut/pensieve",
+   "stars": 1370,
+   "n_deps": 43,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dou-jiang/codex-console",
+   "stars": 2189,
+   "n_deps": 8,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "binkuolo/fastapi",
+   "stars": 140,
+   "n_deps": 11,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "ParisNeo/lollms",
+   "stars": 248,
+   "n_deps": 115,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "entropy-research/Devon",
+   "stars": 3450,
+   "n_deps": 50,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "plastic-labs/honcho",
+   "stars": 4868,
+   "n_deps": 56,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "mCodingLLC/VideosSampleCode",
+   "stars": 1085,
+   "n_deps": 33,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "laramies/theHarvester",
+   "stars": 17121,
+   "n_deps": 30,
+   "rel": [
+    "aiosqlite",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "olaxbt/ai-market-maker",
+   "stars": 1324,
+   "n_deps": 49,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "elastic/apm-agent-python",
+   "stars": 415,
+   "n_deps": 57,
+   "rel": [
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "FedML-AI/FedML",
+   "stars": 4049,
+   "n_deps": 138,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "developmentseed/eoAPI",
+   "stars": 179,
+   "n_deps": 25,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "intel/ipex-llm",
+   "stars": 8164,
+   "n_deps": 207,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "theopenconversationkit/tock",
+   "stars": 503,
+   "n_deps": 46,
+   "rel": [
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "cft0808/edict",
+   "stars": 15916,
+   "n_deps": 16,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "GoogleCloudPlatform/generative-ai",
+   "stars": 16994,
+   "n_deps": 140,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "zhanymkanov/fastapi_production_template",
+   "stars": 1250,
+   "n_deps": 15,
+   "rel": [
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "rhoboro/async-fastapi-sqlalchemy",
+   "stars": 226,
+   "n_deps": 9,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "hansonkd/Tino",
+   "stars": 172,
+   "n_deps": 11,
+   "rel": [
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "rommapp/romm",
+   "stars": 8966,
+   "n_deps": 71,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "endurain-project/endurain",
+   "stars": 1983,
+   "n_deps": 77,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "kagent-dev/kagent",
+   "stars": 2880,
+   "n_deps": 47,
+   "rel": [
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "mirumee/ariadne",
+   "stars": 2342,
+   "n_deps": 20,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "GoogleCloudPlatform/ai-on-gke",
+   "stars": 172,
+   "n_deps": 71,
+   "rel": [
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "jeremylongshore/claude-code-plugins-plus-skills",
+   "stars": 2268,
+   "n_deps": 57,
+   "rel": [
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "fossasia/open-event-server",
+   "stars": 3003,
+   "n_deps": 71,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "liweiphys/layra",
+   "stars": 780,
+   "n_deps": 32,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dialoguemd/fastapi-sqla",
+   "stars": 214,
+   "n_deps": 14,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "Zefan-Cai/R-KV",
+   "stars": 1201,
+   "n_deps": 201,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "PaddlePaddle/PaddleNLP",
+   "stars": 12951,
+   "n_deps": 277,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "aws-samples/serverless-patterns",
+   "stars": 1803,
+   "n_deps": 118,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "gaganpreet/fastapi-starter",
+   "stars": 436,
+   "n_deps": 14,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "maxdorninger/MediaManager",
+   "stars": 3206,
+   "n_deps": 33,
+   "rel": [
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "kyegomez/swarms",
+   "stars": 6809,
+   "n_deps": 191,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "TensorOpsAI/LLMstudio",
+   "stars": 221,
+   "n_deps": 30,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "teamhide/fastapi-layered-architecture",
+   "stars": 285,
+   "n_deps": 9,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "MushroomMaula/fastapi_login",
+   "stars": 645,
+   "n_deps": 18,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "simulatrex/simulatrex-engine",
+   "stars": 214,
+   "n_deps": 15,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "chaos-water/Magic-BI",
+   "stars": 504,
+   "n_deps": 34,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Mrinank-Bhowmick/python-beginner-projects",
+   "stars": 2445,
+   "n_deps": 121,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "maziyarpanahi/openmed",
+   "stars": 1306,
+   "n_deps": 81,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "flwrlabs/flower",
+   "stars": 6952,
+   "n_deps": 160,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "BlazeUp-AI/Observal",
+   "stars": 1794,
+   "n_deps": 55,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Kanaries/Rath",
+   "stars": 4653,
+   "n_deps": 23,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "vstorm-co/full-stack-ai-agent-template",
+   "stars": 1308,
+   "n_deps": 49,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "zauberzeug/nicegui",
+   "stars": 15894,
+   "n_deps": 69,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "celaraze/sebastian",
+   "stars": 909,
+   "n_deps": 13,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "microsoft/PyRIT",
+   "stars": 3934,
+   "n_deps": 73,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "GitHamza0206/simba",
+   "stars": 1451,
+   "n_deps": 48,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "topoteretes/cognee",
+   "stars": 17692,
+   "n_deps": 169,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "databases",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "timescale/pgai",
+   "stars": 5650,
+   "n_deps": 57,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Roy3838/Observer",
+   "stars": 1371,
+   "n_deps": 27,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "memodb-io/Acontext",
+   "stars": 3495,
+   "n_deps": 25,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "alibaba/SREWorks",
+   "stars": 1980,
+   "n_deps": 53,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "mfreeborn/fastapi-sqlalchemy",
+   "stars": 620,
+   "n_deps": 8,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "HFAiLab/hai-platform",
+   "stars": 265,
+   "n_deps": 55,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "pcg-mlp/KsanaLLM",
+   "stars": 180,
+   "n_deps": 99,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ets-labs/python-dependency-injector",
+   "stars": 4874,
+   "n_deps": 39,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Dataherald/dataherald",
+   "stars": 3636,
+   "n_deps": 39,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dev-lu/osint_toolkit",
+   "stars": 479,
+   "n_deps": 39,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "highlight/highlight",
+   "stars": 9288,
+   "n_deps": 31,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "defog-ai/sql-eval",
+   "stars": 439,
+   "n_deps": 42,
+   "rel": [
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "lnbits/lnbits",
+   "stars": 1210,
+   "n_deps": 58,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "jaypyles/Scraperr",
+   "stars": 4830,
+   "n_deps": 25,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "TsinghuaDatabaseGroup/DB-GPT",
+   "stars": 455,
+   "n_deps": 86,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "fastapiutils/fastapi-utils",
+   "stars": 2307,
+   "n_deps": 12,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "pycaret/pycaret",
+   "stars": 9810,
+   "n_deps": 90,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "grai-io/grai-core",
+   "stars": 277,
+   "n_deps": 99,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "gil9red/SimplePyScripts",
+   "stars": 150,
+   "n_deps": 263,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "a2aproject/a2a-python",
+   "stars": 1944,
+   "n_deps": 27,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "KenMwaura1/Fast-Api-example",
+   "stars": 136,
+   "n_deps": 14,
+   "rel": [
+    "alembic",
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "baranbartu/microservices-with-fastapi",
+   "stars": 329,
+   "n_deps": 9,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "talkdai/dialog",
+   "stars": 297,
+   "n_deps": 20,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "compdemocracy/polis",
+   "stars": 917,
+   "n_deps": 43,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "papermerge/papermerge-core",
+   "stars": 310,
+   "n_deps": 38,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Helicone/helicone",
+   "stars": 5784,
+   "n_deps": 27,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "stars": 15304,
+   "n_deps": 127,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "vvandk/kinit",
+   "stars": 365,
+   "n_deps": 38,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "FreeU-group/FreeTodo",
+   "stars": 2283,
+   "n_deps": 35,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "deepsense-ai/ragbits",
+   "stars": 1645,
+   "n_deps": 64,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "SQLMesh/sqlmesh",
+   "stars": 3125,
+   "n_deps": 86,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ChristopherGS/ultimate-fastapi-tutorial",
+   "stars": 1215,
+   "n_deps": 13,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "benavlabs/FastAPI-boilerplate",
+   "stars": 1951,
+   "n_deps": 36,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "repowise-dev/repowise",
+   "stars": 2107,
+   "n_deps": 43,
+   "rel": [
+    "aiosqlite",
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ArjanCodes/examples",
+   "stars": 1194,
+   "n_deps": 155,
+   "rel": [
+    "aiosqlite",
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "codemation/pydbantic",
+   "stars": 221,
+   "n_deps": 9,
+   "rel": [
+    "alembic",
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "relatedcode/Midjourney",
+   "stars": 3300,
+   "n_deps": 5,
+   "rel": [
+    "databases",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "trykimu/videoeditor",
+   "stars": 2016,
+   "n_deps": 12,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "datawhalechina/fun-rec",
+   "stars": 7148,
+   "n_deps": 22,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ModelEngine-Group/nexent",
+   "stars": 4794,
+   "n_deps": 115,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "opslane/opslane",
+   "stars": 652,
+   "n_deps": 32,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "langchain-ai/opengpts",
+   "stars": 6755,
+   "n_deps": 36,
+   "rel": [
+    "asyncpg",
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "Forget-C/Jellyfish",
+   "stars": 3703,
+   "n_deps": 15,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "memodb-io/memobase",
+   "stars": 2738,
+   "n_deps": 39,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "theowni/Damn-Vulnerable-RESTaurant-API-Game",
+   "stars": 388,
+   "n_deps": 18,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "benavlabs/fastcrud",
+   "stars": 1521,
+   "n_deps": 8,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "jhj0517/Whisper-WebUI",
+   "stars": 2811,
+   "n_deps": 29,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "NimbleBoxAI/ChainFury",
+   "stars": 406,
+   "n_deps": 21,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "SolaceLabs/solace-agent-mesh",
+   "stars": 4945,
+   "n_deps": 75,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Tracer-Cloud/opensre",
+   "stars": 6212,
+   "n_deps": 71,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "yukkcat/gemini-business2api",
+   "stars": 1277,
+   "n_deps": 9,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "insistence/RuoYi-Vue3-FastAPI",
+   "stars": 1374,
+   "n_deps": 55,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "epam/Indigo",
+   "stars": 316,
+   "n_deps": 51,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "grillazz/fastapi-sqlalchemy-asyncpg",
+   "stars": 417,
+   "n_deps": 28,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "LouisYZK/Frodo",
+   "stars": 151,
+   "n_deps": 25,
+   "rel": [
+    "alembic",
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "touero/opsariichthys-bidens",
+   "stars": 138,
+   "n_deps": 8,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "kaqijiang/Auto-GPT-ZH",
+   "stars": 2466,
+   "n_deps": 109,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "MoonshotAI/kimi-cli",
+   "stars": 8832,
+   "n_deps": 47,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "pinpoint-apm/pinpoint-c-agent",
+   "stars": 262,
+   "n_deps": 25,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Onelevenvy/flock",
+   "stars": 928,
+   "n_deps": 41,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "ag2ai/ag2",
+   "stars": 4615,
+   "n_deps": 157,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "jowilf/starlette-admin",
+   "stars": 821,
+   "n_deps": 53,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel",
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "hansonkd/puff",
+   "stars": 319,
+   "n_deps": 11,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "codefuse-ai/codefuse-chatbot",
+   "stars": 1291,
+   "n_deps": 49,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "agentscope-ai/QwenPaw",
+   "stars": 17099,
+   "n_deps": 139,
+   "rel": [
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "a2aproject/a2a-samples",
+   "stars": 1610,
+   "n_deps": 72,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "fastapi-practices/fastapi-best-architecture",
+   "stars": 2273,
+   "n_deps": 56,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Checkmk/checkmk",
+   "stars": 2283,
+   "n_deps": 179,
+   "rel": [
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "lucastononro/llm-food-delivery",
+   "stars": 192,
+   "n_deps": 16,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ghostop14/sparrow-wifi",
+   "stars": 1550,
+   "n_deps": 26,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "sysown/proxysql",
+   "stars": 6819,
+   "n_deps": 24,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "aipotheosis-labs/aci",
+   "stars": 4793,
+   "n_deps": 46,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "zai-org/GLM-OCR",
+   "stars": 6850,
+   "n_deps": 22,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "google/adk-samples",
+   "stars": 9540,
+   "n_deps": 177,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "SciPhi-AI/agent-search",
+   "stars": 397,
+   "n_deps": 12,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "Lolomgrofl/fastapi-genesis",
+   "stars": 313,
+   "n_deps": 9,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "codingwithroby/FastAPI-The-Complete-Course",
+   "stars": 138,
+   "n_deps": 11,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "openclaw/skills",
+   "stars": 4383,
+   "n_deps": 2328,
+   "rel": [
+    "aiosqlite",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "cnlimiter/codex-manager",
+   "stars": 1992,
+   "n_deps": 12,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "pydantic/pydantic-ai",
+   "stars": 17406,
+   "n_deps": 95,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "Canner/WrenAI",
+   "stars": 14655,
+   "n_deps": 84,
+   "rel": [
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "AutoPackAI/beebot",
+   "stars": 383,
+   "n_deps": 25,
+   "rel": [
+    "psycopg2",
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "skypilot-org/skypilot",
+   "stars": 10068,
+   "n_deps": 139,
+   "rel": [
+    "aiosqlite",
+    "alembic",
+    "asyncpg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "luisroque/large_laguage_models",
+   "stars": 178,
+   "n_deps": 34,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "Josh-XT/AGiXT",
+   "stars": 3194,
+   "n_deps": 174,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "alibaba/OpenSandbox",
+   "stars": 10896,
+   "n_deps": 38,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "taomujian/linbing",
+   "stars": 695,
+   "n_deps": 57,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ArcReel/ArcReel",
+   "stars": 2407,
+   "n_deps": 36,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "piercefreeman/mountaineer",
+   "stars": 865,
+   "n_deps": 34,
+   "rel": [
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "chatpire/chatgpt-web-share",
+   "stars": 4271,
+   "n_deps": 25,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "SFTtech/abrechnung",
+   "stars": 134,
+   "n_deps": 21,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "piccolo-orm/piccolo",
+   "stars": 1937,
+   "n_deps": 20,
+   "rel": [
+    "aiosqlite",
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "airweave-ai/airweave",
+   "stars": 6375,
+   "n_deps": 79,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "TechEmpower/FrameworkBenchmarks",
+   "stars": 8077,
+   "n_deps": 96,
+   "rel": [
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy",
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "MedAziz11/Uptime-Kuma-Web-API",
+   "stars": 174,
+   "n_deps": 10,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "shibuiwilliam/ml-system-in-actions",
+   "stars": 280,
+   "n_deps": 24,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "kedro-org/kedro-viz",
+   "stars": 680,
+   "n_deps": 48,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "llmware-ai/llmware",
+   "stars": 4220,
+   "n_deps": 84,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "deepset-ai/haystack",
+   "stars": 11672,
+   "n_deps": 121,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dimensionalOS/dimos",
+   "stars": 3377,
+   "n_deps": 160,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "fastapi-users/fastapi-users",
+   "stars": 6170,
+   "n_deps": 19,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "sirocco-ventures/raggenie",
+   "stars": 136,
+   "n_deps": 39,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "physical-superintelligence-lab/Psi0",
+   "stars": 2603,
+   "n_deps": 165,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "flathub-infra/website",
+   "stars": 197,
+   "n_deps": 34,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "MervinPraison/PraisonAI",
+   "stars": 8085,
+   "n_deps": 203,
+   "rel": [
+    "aiosqlite",
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "rashadphz/farfalle",
+   "stars": 2118,
+   "n_deps": 17,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "devflowinc/trieve",
+   "stars": 1658,
+   "n_deps": 31,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "apache/burr",
+   "stars": 2019,
+   "n_deps": 59,
+   "rel": [
+    "aiosqlite",
+    "asyncpg",
+    "psycopg2",
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "apify/crawlee-python",
+   "stars": 9147,
+   "n_deps": 66,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "awslabs/data-on-eks",
+   "stars": 544,
+   "n_deps": 52,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "evidentlyai/evidently",
+   "stars": 5834,
+   "n_deps": 69,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "gomate-community/TrustRAG",
+   "stars": 1262,
+   "n_deps": 78,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "yugabyte/yugabyte-db",
+   "stars": 10299,
+   "n_deps": 84,
+   "rel": [
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "jd-opensource/joyagent-jdgenie",
+   "stars": 11801,
+   "n_deps": 31,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "microsoft/promptflow",
+   "stars": 11142,
+   "n_deps": 119,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Capsize-Games/airunner",
+   "stars": 1315,
+   "n_deps": 119,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Renumics/spotlight",
+   "stars": 1256,
+   "n_deps": 44,
+   "rel": [
+    "databases"
+   ]
+  },
+  {
+   "repo": "chenyme/grok2api",
+   "stars": 5047,
+   "n_deps": 15,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "linuxfoundation/crowd.dev",
+   "stars": 3367,
+   "n_deps": 25,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "Azure/app-service-linux-docs",
+   "stars": 139,
+   "n_deps": 470,
+   "rel": [
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "piccolo-orm/piccolo_api",
+   "stars": 146,
+   "n_deps": 21,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "OneDragon-Anything/ZenlessZoneZero-OneDragon",
+   "stars": 6364,
+   "n_deps": 49,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Zackriya-Solutions/meetily",
+   "stars": 12425,
+   "n_deps": 10,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "SanPen/GridCal",
+   "stars": 392,
+   "n_deps": 93,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "PythonNest/PyNest",
+   "stars": 831,
+   "n_deps": 19,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "MODSetter/SurfSense",
+   "stars": 14368,
+   "n_deps": 124,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ed-donner/agents",
+   "stars": 5178,
+   "n_deps": 297,
+   "rel": [
+    "aiosqlite",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "panaversity/learn-agentic-ai",
+   "stars": 4193,
+   "n_deps": 93,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "build-trust/ockam",
+   "stars": 4557,
+   "n_deps": 15,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "jiggy-ai/hn_summary",
+   "stars": 242,
+   "n_deps": 14,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "UFund-Me/Qbot",
+   "stars": 17563,
+   "n_deps": 126,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "heyfavour/vue-element-admin-fastapi",
+   "stars": 240,
+   "n_deps": 19,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "scionoftech/FastAPI-Full-Stack-Samples",
+   "stars": 214,
+   "n_deps": 37,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "strukto-ai/mirage",
+   "stars": 2821,
+   "n_deps": 81,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "kvcache-ai/ktransformers",
+   "stars": 17231,
+   "n_deps": 84,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Datus-ai/Datus-agent",
+   "stars": 1253,
+   "n_deps": 69,
+   "rel": [
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "SciPhi-AI/R2R",
+   "stars": 7880,
+   "n_deps": 98,
+   "rel": [
+    "aiosqlite",
+    "alembic",
+    "asyncpg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "different-ai/embedbase",
+   "stars": 487,
+   "n_deps": 26,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "codeacme17/examor",
+   "stars": 1060,
+   "n_deps": 14,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "beenuar/AiSOC",
+   "stars": 1197,
+   "n_deps": 75,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "fief-dev/fief",
+   "stars": 484,
+   "n_deps": 49,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dynamiq-ai/dynamiq",
+   "stars": 907,
+   "n_deps": 89,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "t59688/arboris-novel",
+   "stars": 1437,
+   "n_deps": 16,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "jupyterhub/jupyterhub",
+   "stars": 8293,
+   "n_deps": 51,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "raphaelsty/knowledge",
+   "stars": 558,
+   "n_deps": 23,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "kaapana/kaapana",
+   "stars": 158,
+   "n_deps": 153,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "judahpaul16/gpt-home",
+   "stars": 347,
+   "n_deps": 42,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "hylarucoder/tifa",
+   "stars": 133,
+   "n_deps": 17,
+   "rel": [
+    "sqlalchemy",
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "RichardAtCT/claude-code-telegram",
+   "stars": 2651,
+   "n_deps": 15,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "jblance/mpp-solar",
+   "stars": 317,
+   "n_deps": 21,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dunossauro/live-de-python",
+   "stars": 1291,
+   "n_deps": 168,
+   "rel": [
+    "alembic",
+    "databases",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "awslabs/agentcore-samples",
+   "stars": 2896,
+   "n_deps": 208,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "lucafaggianelli/plombery",
+   "stars": 230,
+   "n_deps": 22,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "asacristani/fastapi-rocket-boilerplate",
+   "stars": 450,
+   "n_deps": 20,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "tortoise/tortoise-orm",
+   "stars": 5571,
+   "n_deps": 42,
+   "rel": [
+    "aiosqlite",
+    "asyncpg",
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "rllm-org/rllm",
+   "stars": 5581,
+   "n_deps": 121,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "atpuxiner/toollib",
+   "stars": 403,
+   "n_deps": 21,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "jd-opensource/OxyGent",
+   "stars": 1947,
+   "n_deps": 66,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "baizunxian/zerorunner",
+   "stars": 188,
+   "n_deps": 47,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "NVIDIA/GenerativeAIExamples",
+   "stars": 4056,
+   "n_deps": 177,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "DJ2LS/FreeDATA",
+   "stars": 148,
+   "n_deps": 56,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "gpustack/gpustack",
+   "stars": 5111,
+   "n_deps": 68,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "HolmesGPT/holmesgpt",
+   "stars": 2577,
+   "n_deps": 70,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Dicklesworthstone/swiss_army_llama",
+   "stars": 1020,
+   "n_deps": 36,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "yoda-pa/yoda",
+   "stars": 738,
+   "n_deps": 10,
+   "rel": [
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "zzsza/Boostcamp-AI-Tech-Product-Serving",
+   "stars": 403,
+   "n_deps": 35,
+   "rel": [
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "ShouZhengAI/CS146S_CN",
+   "stars": 1202,
+   "n_deps": 16,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "xusenlinzy/api-for-open-llm",
+   "stars": 2459,
+   "n_deps": 57,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "XDeadHackerX/The_spy_job",
+   "stars": 246,
+   "n_deps": 21,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "openakita/openakita",
+   "stars": 1781,
+   "n_deps": 234,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "vmware/versatile-data-kit",
+   "stars": 416,
+   "n_deps": 86,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Krukov/cashews",
+   "stars": 423,
+   "n_deps": 17,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "AI-Citizen/SolidGPT",
+   "stars": 1794,
+   "n_deps": 31,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "IBM/mcp-context-forge",
+   "stars": 3791,
+   "n_deps": 161,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "fiatrete/OpenDAN-Personal-AI-OS",
+   "stars": 2036,
+   "n_deps": 69,
+   "rel": [
+    "aiosqlite",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "JoshuaC215/agent-service-toolkit",
+   "stars": 4294,
+   "n_deps": 41,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "amisadmin/fastapi-amis-admin",
+   "stars": 1555,
+   "n_deps": 15,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "Kuzyashin/FastAPI_Tortoise_template",
+   "stars": 239,
+   "n_deps": 7,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "plasmicapp/plasmic",
+   "stars": 5231,
+   "n_deps": 10,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Kanaries/pygwalker",
+   "stars": 15830,
+   "n_deps": 42,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "uriyyo/fastapi-pagination",
+   "stars": 1662,
+   "n_deps": 40,
+   "rel": [
+    "aiosqlite",
+    "asyncpg",
+    "databases",
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "databricks-solutions/ai-dev-kit",
+   "stars": 1593,
+   "n_deps": 31,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "AI4Finance-Foundation/FinRobot",
+   "stars": 7187,
+   "n_deps": 41,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "serge-chat/serge",
+   "stars": 5725,
+   "n_deps": 17,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ITZ-ZAID/Telegram",
+   "stars": 139,
+   "n_deps": 32,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "slackapi/bolt-python",
+   "stars": 1308,
+   "n_deps": 30,
+   "rel": [
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "datacontract/datacontract-cli",
+   "stars": 343,
+   "n_deps": 67,
+   "rel": [
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "niledatabase/niledatabase",
+   "stars": 947,
+   "n_deps": 27,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "iam-abbas/FastAPI-Production-Boilerplate",
+   "stars": 341,
+   "n_deps": 15,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "TheSmallHanCat/flow2api",
+   "stars": 2455,
+   "n_deps": 12,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "c0sogi/LLMChat",
+   "stars": 235,
+   "n_deps": 43,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "reconurge/flowsint",
+   "stars": 3762,
+   "n_deps": 33,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "open-jarvis/OpenJarvis",
+   "stars": 5650,
+   "n_deps": 98,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "nofoobar/JobBoard-Fastapi",
+   "stars": 178,
+   "n_deps": 14,
+   "rel": [
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "huggingface/OpenEnv",
+   "stars": 1902,
+   "n_deps": 143,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Mega-Gorilla/Index_PDF_Translation",
+   "stars": 275,
+   "n_deps": 29,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "permitio/fastapi_websocket_pubsub",
+   "stars": 499,
+   "n_deps": 12,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "eigent-ai/eigent",
+   "stars": 14163,
+   "n_deps": 55,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "05bit/peewee-async",
+   "stars": 736,
+   "n_deps": 16,
+   "rel": [
+    "aiosqlite",
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "adriangb/xpresso",
+   "stars": 173,
+   "n_deps": 13,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "pgorecki/python-ddd",
+   "stars": 989,
+   "n_deps": 17,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "pmh1314520/WebRPA",
+   "stars": 1716,
+   "n_deps": 80,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "NevaMind-AI/memU",
+   "stars": 13738,
+   "n_deps": 23,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "rawheel/fastapi-boilerplate",
+   "stars": 201,
+   "n_deps": 10,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "demisto/content",
+   "stars": 1280,
+   "n_deps": 309,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "truera/trulens",
+   "stars": 3361,
+   "n_deps": 79,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "PeterH0323/Streamer-Sales",
+   "stars": 3699,
+   "n_deps": 66,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "pyeden/FastAPI-demo",
+   "stars": 240,
+   "n_deps": 10,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "phospho-app/phospho",
+   "stars": 320,
+   "n_deps": 52,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "microsoft/azure-genai-design-patterns",
+   "stars": 563,
+   "n_deps": 25,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Checkmarx/capital",
+   "stars": 263,
+   "n_deps": 17,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "heshengtao/comfyui_LLM_party",
+   "stars": 2271,
+   "n_deps": 77,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "qu3vipon/python-ddd",
+   "stars": 336,
+   "n_deps": 12,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "aimhubio/aim",
+   "stars": 6160,
+   "n_deps": 91,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "postgresml/postgresml",
+   "stars": 3677,
+   "n_deps": 40,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "qodo-ai/qodo-cover",
+   "stars": 5414,
+   "n_deps": 20,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "google/sqlcommenter",
+   "stars": 604,
+   "n_deps": 14,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "coderamp-labs/pad.ws",
+   "stars": 4111,
+   "n_deps": 17,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Donkie/Spoolman",
+   "stars": 2503,
+   "n_deps": 15,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "keephq/keep",
+   "stars": 11899,
+   "n_deps": 99,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "jadepeng/pytrader",
+   "stars": 260,
+   "n_deps": 26,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "google/adk-python",
+   "stars": 19931,
+   "n_deps": 98,
+   "rel": [
+    "aiosqlite",
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "open-edge-platform/anomalib",
+   "stars": 5818,
+   "n_deps": 79,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "innovatorved/whisper.api",
+   "stars": 895,
+   "n_deps": 13,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Granulate/gprofiler-performance-studio",
+   "stars": 163,
+   "n_deps": 24,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "cmu-sei/GHOSTS",
+   "stars": 519,
+   "n_deps": 47,
+   "rel": [
+    "aiosqlite",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ArtVentureX/sd-webui-agent-scheduler",
+   "stars": 594,
+   "n_deps": 10,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ethyca/fides",
+   "stars": 360,
+   "n_deps": 115,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "easydiffusion/easydiffusion",
+   "stars": 10374,
+   "n_deps": 19,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "BetaStreetOmnis/xhs_ai_publisher",
+   "stars": 1977,
+   "n_deps": 17,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "TaskingAI/TaskingAI",
+   "stars": 5381,
+   "n_deps": 41,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "chaosblade-io/chaosblade",
+   "stars": 6353,
+   "n_deps": 29,
+   "rel": [
+    "aiosqlite",
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "samugit83/redamon",
+   "stars": 1934,
+   "n_deps": 145,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "EulerSearch/embedding_studio",
+   "stars": 373,
+   "n_deps": 42,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "TeamWiseFlow/wiseflow",
+   "stars": 8046,
+   "n_deps": 76,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "testdrivenio/fastapi-tdd-docker",
+   "stars": 165,
+   "n_deps": 9,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "HKUDS/AI-Trader",
+   "stars": 18989,
+   "n_deps": 33,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "PasarGuard/panel",
+   "stars": 1687,
+   "n_deps": 34,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "modelscope/ms-agent",
+   "stars": 4286,
+   "n_deps": 120,
+   "rel": [
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "Mirascope/mirascope",
+   "stars": 1492,
+   "n_deps": 79,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "lvgalvao/data-engineering-roadmap",
+   "stars": 1338,
+   "n_deps": 79,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "D10S0VSkY-OSS/Stack-Lifecycle-Deployment",
+   "stars": 235,
+   "n_deps": 43,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "CarterPerez-dev/Cybersecurity-Projects",
+   "stars": 2613,
+   "n_deps": 111,
+   "rel": [
+    "aiosqlite",
+    "alembic",
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "TracecatHQ/tracecat",
+   "stars": 3630,
+   "n_deps": 104,
+   "rel": [
+    "asyncpg",
+    "psycopg",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "data-dot-all/dataall",
+   "stars": 219,
+   "n_deps": 48,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Rock-Candy-Tea/hexo-circle-of-friends",
+   "stars": 281,
+   "n_deps": 18,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "1sdv/TripStar",
+   "stars": 1802,
+   "n_deps": 11,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "antonputra/tutorials",
+   "stars": 4591,
+   "n_deps": 23,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "Freedium-cfd/web",
+   "stars": 1768,
+   "n_deps": 53,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "microsoft/aspire",
+   "stars": 6030,
+   "n_deps": 18,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "wenda-LLM/wenda",
+   "stars": 6173,
+   "n_deps": 49,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "JustUndertaker/ComWeChatBotClient",
+   "stars": 251,
+   "n_deps": 14,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "basicmachines-co/basic-memory",
+   "stars": 3112,
+   "n_deps": 55,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "cohere-ai/cohere-toolkit",
+   "stars": 3160,
+   "n_deps": 53,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "pingcap/autoflow",
+   "stars": 2789,
+   "n_deps": 55,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "Live-GalGame/LiveGalGame",
+   "stars": 2498,
+   "n_deps": 15,
+   "rel": [
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "tophant-ai/ClawVault",
+   "stars": 1224,
+   "n_deps": 19,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "AgnostiqHQ/covalent",
+   "stars": 844,
+   "n_deps": 55,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "CERT-Polska/Artemis",
+   "stars": 478,
+   "n_deps": 55,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "recap-build/recap",
+   "stars": 310,
+   "n_deps": 19,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "tsileo/microblog.pub",
+   "stars": 1126,
+   "n_deps": 37,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "open-webui/pipelines",
+   "stars": 2394,
+   "n_deps": 39,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ddCat-main/cursor-auto-register",
+   "stars": 832,
+   "n_deps": 11,
+   "rel": [
+    "aiosqlite",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "bugbakery/transcribee",
+   "stars": 196,
+   "n_deps": 36,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "h0rn3t/fastapi-async-sqlalchemy",
+   "stars": 149,
+   "n_deps": 7,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "duongcongnha/Vehicle-tracking",
+   "stars": 172,
+   "n_deps": 40,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "abunuwas/microservice-apis",
+   "stars": 224,
+   "n_deps": 21,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Drakkar-Software/OctoBot",
+   "stars": 5979,
+   "n_deps": 110,
+   "rel": [
+    "aiosqlite",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Gozargah/Marzban",
+   "stars": 6882,
+   "n_deps": 34,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "rochacbruno/fastapi-project-template",
+   "stars": 362,
+   "n_deps": 13,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "kuwala-io/kuwala",
+   "stars": 796,
+   "n_deps": 37,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "andrewyng/aisuite",
+   "stars": 13781,
+   "n_deps": 44,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "nebulabroadcast/nebula",
+   "stars": 219,
+   "n_deps": 25,
+   "rel": [
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "run-house/kubetorch",
+   "stars": 1209,
+   "n_deps": 114,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "itskovacs/trip",
+   "stars": 1477,
+   "n_deps": 17,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "Sanjeev-Thiyagarajan/fastapi-course",
+   "stars": 1010,
+   "n_deps": 7,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Intelligent-Internet/ii-agent",
+   "stars": 3345,
+   "n_deps": 106,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "schemathesis/schemathesis",
+   "stars": 3383,
+   "n_deps": 61,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "snailyp/gemini-balance",
+   "stars": 5875,
+   "n_deps": 14,
+   "rel": [
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "janbjorge/pgqueuer",
+   "stars": 1490,
+   "n_deps": 26,
+   "rel": [
+    "asyncpg",
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "NakamotoInstitute/nakamotoinstitute.org",
+   "stars": 330,
+   "n_deps": 18,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "zvtvz/zvt",
+   "stars": 4177,
+   "n_deps": 27,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "MetaGLM/FinGLM",
+   "stars": 2236,
+   "n_deps": 78,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dbos-inc/dbos-transact-py",
+   "stars": 1393,
+   "n_deps": 33,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "visini/abstracting-fastapi-services",
+   "stars": 387,
+   "n_deps": 10,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "open-telemetry/opentelemetry-demo",
+   "stars": 3133,
+   "n_deps": 29,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "Kludex/fastapi-microservices",
+   "stars": 453,
+   "n_deps": 14,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Upsonic/Upsonic",
+   "stars": 7870,
+   "n_deps": 112,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "antimetal/awsdocsgpt",
+   "stars": 269,
+   "n_deps": 14,
+   "rel": [
+    "asyncpg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "larymak/Python-project-Scripts",
+   "stars": 2222,
+   "n_deps": 116,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "lncrawl/lightnovel-crawler",
+   "stars": 2377,
+   "n_deps": 64,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "agentscope-ai/ReMe",
+   "stars": 3025,
+   "n_deps": 70,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "astronomer/astronomer-cosmos",
+   "stars": 1214,
+   "n_deps": 33,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "nrl-ai/pautobot",
+   "stars": 138,
+   "n_deps": 10,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "rachelos/we-mp-rss",
+   "stars": 3301,
+   "n_deps": 42,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "pytest-docker-compose/pytest-docker-compose",
+   "stars": 210,
+   "n_deps": 8,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "perspective-dev/perspective",
+   "stars": 10841,
+   "n_deps": 28,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "ndleah/python-mini-project",
+   "stars": 4239,
+   "n_deps": 55,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "lavague-ai/LaVague",
+   "stars": 4027,
+   "n_deps": 40,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ctavolazzi/NovaSystem",
+   "stars": 150,
+   "n_deps": 115,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "basketikun/chatgpt2api",
+   "stars": 3343,
+   "n_deps": 13,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "tenstorrent/tt-metal",
+   "stars": 1502,
+   "n_deps": 198,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "AutoForgeAI/autoforge",
+   "stars": 1757,
+   "n_deps": 16,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "open-edge-platform/geti",
+   "stars": 1308,
+   "n_deps": 78,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "vallard/K8sClass",
+   "stars": 150,
+   "n_deps": 17,
+   "rel": [
+    "alembic",
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "litestar-org/advanced-alchemy",
+   "stars": 175,
+   "n_deps": 62,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "zenml-io/zenml",
+   "stars": 5434,
+   "n_deps": 205,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "SkywalkerDarren/chatWeb",
+   "stars": 905,
+   "n_deps": 20,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "blacklanternsecurity/bbot",
+   "stars": 9856,
+   "n_deps": 61,
+   "rel": [
+    "aiosqlite",
+    "asyncpg",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "presenton/presenton",
+   "stars": 7606,
+   "n_deps": 48,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "HibiKier/zhenxun_bot",
+   "stars": 3388,
+   "n_deps": 62,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "zc-zhangchen/any-auto-register",
+   "stars": 3449,
+   "n_deps": 21,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "Hellohistory/EbookDatabase",
+   "stars": 192,
+   "n_deps": 6,
+   "rel": [
+    "databases"
+   ]
+  },
+  {
+   "repo": "gh18l/CrawlGPT",
+   "stars": 193,
+   "n_deps": 152,
+   "rel": [
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "the-momentum/open-wearables",
+   "stars": 1780,
+   "n_deps": 34,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "testdrivenio/fastapi-vue",
+   "stars": 245,
+   "n_deps": 6,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "JarodMica/ai-voice-cloning",
+   "stars": 411,
+   "n_deps": 45,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "semgrep/semgrep-rules",
+   "stars": 953,
+   "n_deps": 89,
+   "rel": [
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "learnhouse/learnhouse",
+   "stars": 1695,
+   "n_deps": 53,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "dataelement/Clawith",
+   "stars": 3933,
+   "n_deps": 49,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "l3vels/L3AGI",
+   "stars": 200,
+   "n_deps": 50,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "earthobservations/wetterdienst",
+   "stars": 364,
+   "n_deps": 88,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "grumpyp/aixplora",
+   "stars": 255,
+   "n_deps": 23,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "patrickloeber/python-fun",
+   "stars": 784,
+   "n_deps": 25,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "alldatacenter/alldata",
+   "stars": 1958,
+   "n_deps": 844,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "marty331/fasthtmx",
+   "stars": 228,
+   "n_deps": 3,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "iflytek/astron-agent",
+   "stars": 8531,
+   "n_deps": 61,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "Websoft9/websoft9",
+   "stars": 2118,
+   "n_deps": 26,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "MemMachine/MemMachine",
+   "stars": 3101,
+   "n_deps": 71,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "QuarkContainer/Quark",
+   "stars": 325,
+   "n_deps": 18,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "radixark/miles",
+   "stars": 1462,
+   "n_deps": 113,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "StreetLamb/tribe",
+   "stars": 1018,
+   "n_deps": 29,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "open-telemetry/opentelemetry-python-contrib",
+   "stars": 874,
+   "n_deps": 96,
+   "rel": [
+    "asyncpg",
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "OpenMined/PySyft",
+   "stars": 9894,
+   "n_deps": 145,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Kyomotoi/ATRI",
+   "stars": 657,
+   "n_deps": 24,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "SuanmoSuanyangTechnology/MemoryBear",
+   "stars": 4219,
+   "n_deps": 123,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "cisagov/prescup-challenges",
+   "stars": 147,
+   "n_deps": 113,
+   "rel": [
+    "aiosqlite",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "chonkie-inc/chonkie",
+   "stars": 4112,
+   "n_deps": 45,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "awtkns/fastapi-crudrouter",
+   "stars": 1693,
+   "n_deps": 13,
+   "rel": [
+    "asyncpg",
+    "databases",
+    "gino",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "hemansnation/AI-Engineer-Headquarters",
+   "stars": 3667,
+   "n_deps": 59,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "fastapi-admin/fastapi-admin",
+   "stars": 3791,
+   "n_deps": 12,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "feathr-ai/feathr",
+   "stars": 1928,
+   "n_deps": 43,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "xiamuceer-j/MuMuAINovel",
+   "stars": 2518,
+   "n_deps": 25,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "TheSmallHanCat/sora2api",
+   "stars": 1201,
+   "n_deps": 12,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "mrhan1993/Fooocus-API",
+   "stars": 494,
+   "n_deps": 43,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "lss233/kirara-ai",
+   "stars": 18787,
+   "n_deps": 42,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "galaxyproject/galaxy",
+   "stars": 1779,
+   "n_deps": 207,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "AlibabaResearch/DAMO-ConvAI",
+   "stars": 1556,
+   "n_deps": 330,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "nuclia/nucliadb",
+   "stars": 596,
+   "n_deps": 81,
+   "rel": [
+    "asyncpg",
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "QAX-A-Team/LuWu",
+   "stars": 848,
+   "n_deps": 35,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Dicklesworthstone/mcp_agent_mail",
+   "stars": 1965,
+   "n_deps": 26,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "evroon/bracket",
+   "stars": 1685,
+   "n_deps": 20,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "pydantic/logfire",
+   "stars": 4283,
+   "n_deps": 77,
+   "rel": [
+    "asyncpg",
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "vllm-project/production-stack",
+   "stars": 2372,
+   "n_deps": 32,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "akfamily/aktools",
+   "stars": 1407,
+   "n_deps": 11,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ydf0509/funboost",
+   "stars": 800,
+   "n_deps": 138,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "dmontagu/fastapi-auth",
+   "stars": 140,
+   "n_deps": 11,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "daya0576/beaverhabits",
+   "stars": 1763,
+   "n_deps": 24,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "oracle-devrel/oracle-ai-developer-hub",
+   "stars": 3707,
+   "n_deps": 143,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Soju06/codex-lb",
+   "stars": 1689,
+   "n_deps": 34,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "cocoindex-io/cocoindex",
+   "stars": 10120,
+   "n_deps": 74,
+   "rel": [
+    "asyncpg",
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "microsoft/restler-fuzzer",
+   "stars": 2914,
+   "n_deps": 10,
+   "rel": [
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "feast-dev/feast",
+   "stars": 7217,
+   "n_deps": 117,
+   "rel": [
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "autoai-org/AID",
+   "stars": 320,
+   "n_deps": 18,
+   "rel": [
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "murtaza-nasir/maestro",
+   "stars": 1490,
+   "n_deps": 42,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "yezz123/DogeAPI",
+   "stars": 136,
+   "n_deps": 26,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "microsoft/agent-governance-toolkit",
+   "stars": 3508,
+   "n_deps": 177,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "awslabs/mcp",
+   "stars": 9163,
+   "n_deps": 115,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "lumina-ai-inc/chunkr",
+   "stars": 2944,
+   "n_deps": 82,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "graphql-python/graphene-sqlalchemy",
+   "stars": 988,
+   "n_deps": 21,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "debpalash/OmniVoice-Studio",
+   "stars": 5356,
+   "n_deps": 103,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ozzs/monobox",
+   "stars": 134,
+   "n_deps": 5,
+   "rel": [
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "maziggy/bambuddy",
+   "stars": 1776,
+   "n_deps": 40,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "netdevopsbr/netbox-proxbox",
+   "stars": 374,
+   "n_deps": 52,
+   "rel": [
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "ogx-ai/ogx",
+   "stars": 8392,
+   "n_deps": 117,
+   "rel": [
+    "aiosqlite",
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "SAGIRI-kawaii/sagiri-bot",
+   "stars": 694,
+   "n_deps": 55,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "mealie-recipes/mealie",
+   "stars": 12383,
+   "n_deps": 46,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "darthnorse/dockmon",
+   "stars": 1326,
+   "n_deps": 44,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "pollinations/pollinations",
+   "stars": 4621,
+   "n_deps": 142,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "Pouzor/homelable",
+   "stars": 1960,
+   "n_deps": 17,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "DataDog/dd-trace-py",
+   "stars": 552,
+   "n_deps": 302,
+   "rel": [
+    "asyncpg",
+    "databases",
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "apache/skywalking-python",
+   "stars": 192,
+   "n_deps": 58,
+   "rel": [
+    "asyncpg",
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "harbor-framework/terminal-bench",
+   "stars": 2299,
+   "n_deps": 196,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Vexa-ai/vexa",
+   "stars": 2118,
+   "n_deps": 103,
+   "rel": [
+    "alembic",
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "IndustryEssentials/ymir",
+   "stars": 567,
+   "n_deps": 47,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "yym68686/uni-api",
+   "stars": 1225,
+   "n_deps": 26,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "crestalnetwork/intentkit",
+   "stars": 6497,
+   "n_deps": 86,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "superduper-io/superduper",
+   "stars": 5289,
+   "n_deps": 94,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "kubeedge/sedna",
+   "stars": 509,
+   "n_deps": 48,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "byt3bl33d3r/WitnessMe",
+   "stars": 737,
+   "n_deps": 15,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "OpenBMB/XAgent",
+   "stars": 8531,
+   "n_deps": 48,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "sgoudelis/ground-station",
+   "stars": 4507,
+   "n_deps": 62,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "onlytiancai/codesnip",
+   "stars": 315,
+   "n_deps": 104,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "daya0576/he-weather-bot",
+   "stars": 182,
+   "n_deps": 18,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "mihail911/modern-software-dev-assignments",
+   "stars": 3654,
+   "n_deps": 7,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ValueCell-ai/valuecell",
+   "stars": 10751,
+   "n_deps": 28,
+   "rel": [
+    "aiosqlite",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ocodista/trampar-de-casa",
+   "stars": 3059,
+   "n_deps": 7,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "vitiko98/kinobot",
+   "stars": 236,
+   "n_deps": 42,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Quenary/tugtainer",
+   "stars": 1451,
+   "n_deps": 22,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "hackingthemarkets/stockscreener",
+   "stars": 308,
+   "n_deps": 4,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "RekhuGopal/PythonHacks",
+   "stars": 432,
+   "n_deps": 56,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "jwills/buenavista",
+   "stars": 194,
+   "n_deps": 12,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "RamiAwar/dataline",
+   "stars": 1572,
+   "n_deps": 26,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "MemTensor/MemOS",
+   "stars": 9464,
+   "n_deps": 69,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "Chainlit/chainlit",
+   "stars": 12181,
+   "n_deps": 61,
+   "rel": [
+    "asyncpg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "genieincodebottle/generative-ai",
+   "stars": 2345,
+   "n_deps": 81,
+   "rel": [
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "JefferyHcool/BiliNote",
+   "stars": 6189,
+   "n_deps": 28,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "tylerprogramming/ai",
+   "stars": 825,
+   "n_deps": 79,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "lintsinghua/DeepAudit",
+   "stars": 6250,
+   "n_deps": 21,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "rsxdalv/TTS-WebUI",
+   "stars": 3159,
+   "n_deps": 24,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "fastapi/sqlmodel",
+   "stars": 18009,
+   "n_deps": 19,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "GerevAI/gerev",
+   "stars": 2813,
+   "n_deps": 41,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "vastsa/FileCodeBox",
+   "stars": 8315,
+   "n_deps": 14,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "tiangolo/blog-posts",
+   "stars": 273,
+   "n_deps": 14,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "coleifer/peewee",
+   "stars": 11986,
+   "n_deps": 27,
+   "rel": [
+    "aiosqlite",
+    "asyncpg",
+    "psycopg",
+    "psycopg2"
+   ]
+  },
+  {
+   "repo": "tobymao/saq",
+   "stars": 400,
+   "n_deps": 15,
+   "rel": [
+    "psycopg"
+   ]
+  },
+  {
+   "repo": "aliev/aioauth",
+   "stars": 214,
+   "n_deps": 10,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "langchain-ai/langchain-extract",
+   "stars": 1147,
+   "n_deps": 24,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dunossauro/fastapi-do-zero",
+   "stars": 869,
+   "n_deps": 19,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "itsthatianguy/youtube",
+   "stars": 133,
+   "n_deps": 15,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "agentuniverse-ai/agentUniverse",
+   "stars": 2264,
+   "n_deps": 92,
+   "rel": [
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "iflytek/astron-rpa",
+   "stars": 5175,
+   "n_deps": 83,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ormar-orm/ormar",
+   "stars": 1809,
+   "n_deps": 23,
+   "rel": [
+    "asyncpg",
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "doobidoo/mcp-memory-service",
+   "stars": 1881,
+   "n_deps": 70,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "knucklesuganda/py_assimilator",
+   "stars": 188,
+   "n_deps": 8,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "xerrors/Yuxi",
+   "stars": 5317,
+   "n_deps": 87,
+   "rel": [
+    "asyncpg",
+    "psycopg",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "567-labs/instructor",
+   "stars": 13113,
+   "n_deps": 64,
+   "rel": [
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "PacktPublishing/LLM-Engineers-Handbook",
+   "stars": 5091,
+   "n_deps": 38,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "OpenAdaptAI/OpenAdapt",
+   "stars": 605,
+   "n_deps": 109,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "mlco2/codecarbon",
+   "stars": 1851,
+   "n_deps": 68,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "panaverse/learn-generative-ai",
+   "stars": 581,
+   "n_deps": 38,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "MLT-OSS/open-assistant-api",
+   "stars": 196,
+   "n_deps": 24,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "bghira/SimpleTuner",
+   "stars": 2855,
+   "n_deps": 121,
+   "rel": [
+    "aiosqlite",
+    "asyncpg"
+   ]
+  },
+  {
+   "repo": "crashappsec/chalk",
+   "stars": 321,
+   "n_deps": 14,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "dbpunk-labs/octogen",
+   "stars": 247,
+   "n_deps": 48,
+   "rel": [
+    "databases"
+   ]
+  },
+  {
+   "repo": "jxxghp/MoviePilot",
+   "stars": 11168,
+   "n_deps": 116,
+   "rel": [
+    "alembic",
+    "psycopg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "oinsd/FastAPI-Learning-Example",
+   "stars": 450,
+   "n_deps": 7,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "tsukumijima/KonomiTV",
+   "stars": 776,
+   "n_deps": 57,
+   "rel": [
+    "tortoise"
+   ]
+  },
+  {
+   "repo": "HumanSignal/Adala",
+   "stars": 1596,
+   "n_deps": 48,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "ocdevel/gnothi",
+   "stars": 174,
+   "n_deps": 51,
+   "rel": [
+    "alembic",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "jupyter-server/jupyverse",
+   "stars": 206,
+   "n_deps": 83,
+   "rel": [
+    "aiosqlite",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "amisadmin/fastapi-user-auth",
+   "stars": 319,
+   "n_deps": 12,
+   "rel": [
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "cider-security-research/cicd-goat",
+   "stars": 2272,
+   "n_deps": 139,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "databases",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "eosphoros-ai/DB-GPT",
+   "stars": 18922,
+   "n_deps": 144,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "chrxh/alien",
+   "stars": 5423,
+   "n_deps": 3,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "rocketride-org/rocketride-server",
+   "stars": 3724,
+   "n_deps": 161,
+   "rel": [
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "NEONKID/fastapi-ddd-example",
+   "stars": 225,
+   "n_deps": 9,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "MemeMeow-Studio/MemeMeow",
+   "stars": 1252,
+   "n_deps": 34,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "jiji262/douyin-downloader",
+   "stars": 7897,
+   "n_deps": 16,
+   "rel": [
+    "aiosqlite"
+   ]
+  },
+  {
+   "repo": "GoogleCloudPlatform/professional-services",
+   "stars": 3021,
+   "n_deps": 255,
+   "rel": [
+    "alembic",
+    "asyncpg",
+    "psycopg2",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "TurboWay/spiderman",
+   "stars": 593,
+   "n_deps": 21,
+   "rel": [
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "abhi1693/openclaw-mission-control",
+   "stars": 4007,
+   "n_deps": 17,
+   "rel": [
+    "alembic",
+    "sqlalchemy",
+    "sqlmodel"
+   ]
+  },
+  {
+   "repo": "rag-web-ui/rag-web-ui",
+   "stars": 3022,
+   "n_deps": 21,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "opendatalab/labelU",
+   "stars": 1584,
+   "n_deps": 28,
+   "rel": [
+    "alembic",
+    "sqlalchemy"
+   ]
+  },
+  {
+   "repo": "ragapp/ragapp",
+   "stars": 4440,
+   "n_deps": 20,
+   "rel": [
+    "sqlmodel"
+   ]
+  }
+ ]
+}

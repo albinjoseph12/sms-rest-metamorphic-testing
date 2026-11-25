@@ -1,0 +1,5 @@
+{"id":"realworld","repo":"nsidnev/fastapi-realworld-example-app","app":"app.main:app","port":9001,
+ "python":"3.11","db":"postgres","db_name":"sms_realworld",
+ "deps":{"kind":"list","packages":["fastapi==0.99.1","uvicorn","pydantic[email,dotenv]==1.10.13","passlib[bcrypt]","bcrypt==4.0.1","pyjwt","databases[postgresql]==0.6.2","asyncpg","psycopg2-binary","aiosql==6.2","pypika","alembic","python-slugify","Unidecode","loguru","httpx","setuptools<81"]},
+ "env":{"SECRET_KEY":"smsbench","DEBUG":"False"},
+ "migrate":["alembic upgrade head"]}

@@ -1,0 +1,61 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.80kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:24.04
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [ 1/10] FROM docker.io/library/ubuntu:24.04@sha256:73b999393d07f2bf65a40373778a44dc9a6d54ad7718d29247d8ff9413c4d6a8
+#4 resolve docker.io/library/ubuntu:24.04@sha256:73b999393d07f2bf65a40373778a44dc9a6d54ad7718d29247d8ff9413c4d6a8 done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 227B done
+#5 DONE 0.0s
+
+#6 [ 2/10] RUN apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get install -y -qq       postgresql-16 redis-server git curl ca-certificates build-essential libpq-dev python3 >/dev/null && rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [ 5/10] RUN uv venv -q /opt/harness --python 3.11 && uv pip install -q --python /opt/harness/bin/python httpx==0.28.1 psycopg2-binary==2.9.13
+#7 CACHED
+
+#8 [ 3/10] RUN (curl -LsSf https://astral.sh/uv/0.12.13/install.sh | sh || curl -LsSf https://astral.sh/uv/0.9.5/install.sh | sh) >/dev/null 2>&1 && uv --version
+#8 CACHED
+
+#9 [ 4/10] RUN uv python install 3.11.16 2>/dev/null || uv python install 3.11
+#9 CACHED
+
+#10 [ 6/10] RUN mkdir -p /opt/sms/targets /opt/sms/manifests && git clone -q https://github.com/Netflix/dispatch /opt/sms/targets/$(echo Netflix/dispatch | tr / _)  && cd /opt/sms/targets/$(echo Netflix/dispatch | tr / _) && git checkout -q dd2837e82a0bf5565b1b4b4b91ea30b7262d4061 && git rev-parse HEAD > /opt/sms/target_commit.txt
+#10 CACHED
+
+#11 [ 8/10] COPY auto_dispatch.json /opt/sms/manifests/
+#11 CACHED
+
+#12 [ 7/10] COPY harness /opt/sms/harness
+#12 CACHED
+
+#13 [ 9/10] COPY setup_env.sh /opt/sms/setup_env.sh
+#13 CACHED
+
+#14 [10/10] RUN cd /opt/sms && /opt/harness/bin/python -c "import sys; sys.path.insert(0,'harness'); import boot; m=boot.load('manifests/auto_dispatch.json'); r=boot.prepare(m); print(r); assert r['ok'], r"  && uv pip freeze --python /opt/sms/venvs/*/bin/python > /opt/sms/target_freeze.txt
+#14 31.91 {'ok': True}
+#14 31.94 Using Python 3.11.16 environment at: venvs/dispatch
+#14 DONE 32.1s
+
+#15 exporting to image
+#15 exporting layers
+#15 exporting layers 17.7s done
+#15 exporting manifest sha256:9cf3e3f43cc6bb968111296f1a2f90a2c22273480402c6faf85c17719f2977c0 0.0s done
+#15 exporting config sha256:21e84ec47fa4663a0a0e50f43433de6dd527c37f6bbf5c7c5651bf1b94006ff3 done
+#15 exporting attestation manifest sha256:736f4eebdae60a9c40f0c37d653a4fc47bef21c34d0f568f0f0baec425e87ff4 done
+#15 exporting manifest list sha256:8d164652b9a21bfe8dc9f5a27e557dfd503151cfdc55ff4b8753f9b2d1227088 done
+#15 naming to docker.io/library/sms-pg-dispatch:latest done
+#15 unpacking to docker.io/library/sms-pg-dispatch:latest
+#15 unpacking to docker.io/library/sms-pg-dispatch:latest 6.2s done
+#15 DONE 24.0s

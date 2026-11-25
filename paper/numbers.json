@@ -1,0 +1,1791 @@
+{
+ "acquisition": {
+  "frame1_screened": 62,
+  "frame1_pass": 10,
+  "frame2_eligible": 699,
+  "frame2_seed": 20260906,
+  "frame2_positions_walked": 271,
+  "frame2_outcomes": {
+   "boot_failed": 132,
+   "booted": 29,
+   "no_asgi_app": 67,
+   "clone_failed": 40,
+   "harness_error": 3
+  },
+  "frame2_booted": 29
+ },
+ "attempted": {
+  "agenta": {
+   "repo": "Agenta-AI/agenta",
+   "routes": 6,
+   "tables": 0,
+   "db": "postgres",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 16,
+   "wall_s": 0.3,
+   "invariants": {},
+   "two_principals": false,
+   "creates": 0
+  },
+  "agentops": {
+   "repo": "AgentOps-AI/agentops",
+   "routes": 9,
+   "tables": 1,
+   "db": "sqlite",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 56,
+   "wall_s": 0.1,
+   "invariants": {},
+   "two_principals": false,
+   "creates": 0
+  },
+  "any-auto-register": {
+   "repo": "lxf746/any-auto-register",
+   "routes": 75,
+   "tables": 13,
+   "db": "sqlite",
+   "instantiated": 30,
+   "executed": 14,
+   "violations": 6,
+   "requests": 252,
+   "wall_s": 499.8,
+   "invariants": {
+    "FOREIGN_REFERENCE": 2,
+    "PATH_REFERENCE": 20,
+    "DELETE_IDEMPOTENT": 5,
+    "NONNEGATIVE_QUANTITY": 3
+   },
+   "two_principals": false,
+   "creates": 16
+  },
+  "awesome-ai-apps": {
+   "repo": "Arindam200/awesome-ai-apps",
+   "routes": 10,
+   "tables": 0,
+   "db": "postgres",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 16,
+   "wall_s": 0.4,
+   "invariants": {
+    "PATH_REFERENCE": 1
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "booking": {
+   "repo": "guduchango/fastapi-booking",
+   "routes": 9,
+   "tables": 3,
+   "db": "postgres",
+   "instantiated": 8,
+   "executed": 1,
+   "violations": 0,
+   "requests": 30,
+   "wall_s": 2.9,
+   "invariants": {
+    "NONNEGATIVE_QUANTITY": 1,
+    "ORDERED_TEMPORAL_PAIR": 2,
+    "FOREIGN_REFERENCE": 4,
+    "PATH_REFERENCE": 1
+   },
+   "two_principals": false,
+   "creates": 9
+  },
+  "bypassaigc": {
+   "repo": "chi111i/BypassAIGC",
+   "routes": 67,
+   "tables": 9,
+   "db": "sqlite",
+   "instantiated": 40,
+   "executed": 0,
+   "violations": 0,
+   "requests": 168,
+   "wall_s": 0.8,
+   "invariants": {
+    "PATH_REFERENCE": 32,
+    "DELETE_IDEMPOTENT": 7,
+    "FOREIGN_REFERENCE": 1
+   },
+   "two_principals": false,
+   "creates": 8
+  },
+  "cloudrun": {
+   "repo": "anthonycorletti/cloudrun-fastapi",
+   "routes": 14,
+   "tables": 2,
+   "db": "postgres",
+   "instantiated": 22,
+   "executed": 7,
+   "violations": 0,
+   "requests": 66,
+   "wall_s": 6.5,
+   "invariants": {
+    "FOREIGN_REFERENCE": 2,
+    "REQUIRES_CREDENTIAL": 12,
+    "DELETE_IDEMPOTENT": 2,
+    "PATH_REFERENCE": 4,
+    "OWNED_ITEM": 2
+   },
+   "two_principals": true,
+   "creates": 4
+  },
+  "crawler": {
+   "repo": "ShilongLee/Crawler",
+   "routes": 56,
+   "tables": 0,
+   "db": "postgres",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 146,
+   "wall_s": 4.4,
+   "invariants": {},
+   "two_principals": false,
+   "creates": 0
+  },
+  "decepticon": {
+   "repo": "PurpleAILAB/Decepticon",
+   "routes": 12,
+   "tables": 0,
+   "db": "postgres",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 97,
+   "wall_s": 3.8,
+   "invariants": {},
+   "two_principals": false,
+   "creates": 0
+  },
+  "dispatch": {
+   "repo": "Netflix/dispatch",
+   "routes": 290,
+   "tables": 206,
+   "db": "postgres",
+   "instantiated": 577,
+   "executed": 46,
+   "violations": 40,
+   "requests": 1113,
+   "wall_s": 499.8,
+   "invariants": {
+    "PATH_REFERENCE": 461,
+    "FOREIGN_REFERENCE": 27,
+    "REQUIRES_CREDENTIAL": 23,
+    "OWNED_ITEM": 23,
+    "DELETE_IDEMPOTENT": 43,
+    "NONNEGATIVE_QUANTITY": 9
+   },
+   "two_principals": true,
+   "creates": 4
+  },
+  "dreamserver": {
+   "repo": "Light-Heart-Labs/DreamServer",
+   "routes": 21,
+   "tables": 1,
+   "db": "sqlite",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 0,
+   "wall_s": 0.0,
+   "invariants": {
+    "REQUIRES_CREDENTIAL": 18,
+    "PATH_REFERENCE": 5,
+    "OWNED_ITEM": 4,
+    "DELETE_IDEMPOTENT": 1
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "email-archiver": {
+   "repo": "bandundu/email-archiver",
+   "routes": 15,
+   "tables": 9,
+   "db": "sqlite",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 26,
+   "wall_s": 0.1,
+   "invariants": {
+    "PATH_REFERENCE": 7,
+    "DELETE_IDEMPOTENT": 2
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "fastapi-course": {
+   "repo": "bitfumes/fastapi-course",
+   "routes": 5,
+   "tables": 2,
+   "db": "sqlite",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 8,
+   "wall_s": 0.1,
+   "invariants": {
+    "PATH_REFERENCE": 2
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "fastapi-scaf": {
+   "repo": "atpuxiner/fastapi-scaf",
+   "routes": 10,
+   "tables": 1,
+   "db": "sqlite",
+   "instantiated": 1,
+   "executed": 0,
+   "violations": 0,
+   "requests": 27,
+   "wall_s": 0.3,
+   "invariants": {
+    "REQUIRES_CREDENTIAL": 5,
+    "NONNEGATIVE_QUANTITY": 2,
+    "PATH_REFERENCE": 3,
+    "OWNED_ITEM": 2,
+    "DELETE_IDEMPOTENT": 1
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "finnewshunter": {
+   "repo": "DemonDamon/FinnewsHunter",
+   "routes": 68,
+   "tables": 0,
+   "db": "postgres",
+   "instantiated": 1,
+   "executed": 0,
+   "violations": 0,
+   "requests": 149,
+   "wall_s": 656.5,
+   "invariants": {
+    "PATH_REFERENCE": 27,
+    "DELETE_IDEMPOTENT": 7
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "gcli2api": {
+   "repo": "su-kaka/gcli2api",
+   "routes": 48,
+   "tables": 3,
+   "db": "sqlite",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 57,
+   "wall_s": 0.1,
+   "invariants": {
+    "PATH_REFERENCE": 17,
+    "FOREIGN_REFERENCE": 3,
+    "REQUIRES_CREDENTIAL": 23,
+    "OWNED_ITEM": 4
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "llm-engine": {
+   "repo": "scaleapi/llm-engine",
+   "routes": 7,
+   "tables": 0,
+   "db": "postgres",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 16,
+   "wall_s": 0.4,
+   "invariants": {},
+   "two_principals": false,
+   "creates": 0
+  },
+  "materials": {
+   "repo": "realpython/materials",
+   "routes": 7,
+   "tables": 0,
+   "db": "postgres",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 8,
+   "wall_s": 0.2,
+   "invariants": {
+    "PATH_REFERENCE": 3,
+    "DELETE_IDEMPOTENT": 1
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "openmoss": {
+   "repo": "uluckyXH/OpenMOSS",
+   "routes": 102,
+   "tables": 0,
+   "db": "postgres",
+   "instantiated": 12,
+   "executed": 0,
+   "violations": 0,
+   "requests": 136,
+   "wall_s": 5.5,
+   "invariants": {
+    "PATH_REFERENCE": 47,
+    "DELETE_IDEMPOTENT": 3,
+    "FOREIGN_REFERENCE": 15,
+    "NONNEGATIVE_QUANTITY": 1
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "potpie": {
+   "repo": "potpie-ai/potpie",
+   "routes": 20,
+   "tables": 0,
+   "db": "postgres",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 4,
+   "wall_s": 0.1,
+   "invariants": {
+    "FOREIGN_REFERENCE": 8,
+    "REQUIRES_CREDENTIAL": 17,
+    "PATH_REFERENCE": 11,
+    "OWNED_ITEM": 4
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "pydantic-resolve": {
+   "repo": "allmonday/pydantic-resolve",
+   "routes": 8,
+   "tables": 0,
+   "db": "postgres",
+   "instantiated": 0,
+   "executed": 0,
+   "violations": 0,
+   "requests": 8,
+   "wall_s": 0.2,
+   "invariants": {
+    "PATH_REFERENCE": 3
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "realworld": {
+   "repo": "nsidnev/fastapi-realworld-example-app",
+   "routes": 19,
+   "tables": 7,
+   "db": "postgres",
+   "instantiated": 40,
+   "executed": 7,
+   "violations": 0,
+   "requests": 91,
+   "wall_s": 8.8,
+   "invariants": {
+    "REQUIRES_CREDENTIAL": 16,
+    "PATH_REFERENCE": 12,
+    "OWNED_ITEM": 8,
+    "DELETE_IDEMPOTENT": 4
+   },
+   "two_principals": true,
+   "creates": 8
+  },
+  "sie": {
+   "repo": "superlinked/sie",
+   "routes": 14,
+   "tables": 2,
+   "db": "sqlite",
+   "instantiated": 13,
+   "executed": 0,
+   "violations": 0,
+   "requests": 106,
+   "wall_s": 12.1,
+   "invariants": {
+    "FOREIGN_REFERENCE": 13,
+    "PATH_REFERENCE": 1
+   },
+   "two_principals": false,
+   "creates": 0
+  },
+  "weave": {
+   "repo": "wandb/weave",
+   "routes": 16,
+   "tables": 0,
+   "db": "postgres",
+   "instantiated": 2,
+   "executed": 0,
+   "violations": 0,
+   "requests": 88,
+   "wall_s": 1.8,
+   "invariants": {
+    "PATH_REFERENCE": 6,
+    "NONNEGATIVE_QUANTITY": 1,
+    "FOREIGN_REFERENCE": 1
+   },
+   "two_principals": false,
+   "creates": 0
+  }
+ },
+ "n_attempted": 24,
+ "n_with_relational_state": 13,
+ "n_evaluable": 5,
+ "evaluable": [
+  "any-auto-register",
+  "booking",
+  "cloudrun",
+  "dispatch",
+  "realworld"
+ ],
+ "main": {
+  "realworld": {
+   "repo": "nsidnev/fastapi-realworld-example-app",
+   "routes": 19,
+   "tables": 7,
+   "per_seed": [
+    {
+     "seed": 1234,
+     "instantiated": 40,
+     "executed": 7,
+     "source_ok": 7,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 91,
+     "wall_s": 8.8,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 5,
+      "MR2_CREDENTIAL_REMOVAL": 2,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 0,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 2718,
+     "instantiated": 40,
+     "executed": 7,
+     "source_ok": 7,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 91,
+     "wall_s": 8.7,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 5,
+      "MR2_CREDENTIAL_REMOVAL": 2,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 0,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 3141,
+     "instantiated": 40,
+     "executed": 7,
+     "source_ok": 7,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 91,
+     "wall_s": 8.7,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 5,
+      "MR2_CREDENTIAL_REMOVAL": 2,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 0,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 4142,
+     "instantiated": 40,
+     "executed": 7,
+     "source_ok": 7,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 91,
+     "wall_s": 8.8,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 5,
+      "MR2_CREDENTIAL_REMOVAL": 2,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 0,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 5772,
+     "instantiated": 40,
+     "executed": 7,
+     "source_ok": 7,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 91,
+     "wall_s": 8.7,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 5,
+      "MR2_CREDENTIAL_REMOVAL": 2,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 0,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    }
+   ],
+   "executed_mean_ci": [
+    7,
+    0.0
+   ],
+   "failing_mean_ci": [
+    0,
+    0.0
+   ],
+   "causes_mean_ci": [
+    0,
+    0.0
+   ],
+   "wall_mean_ci": [
+    8.74,
+    0.06799783525966198
+   ],
+   "requests_mean_ci": [
+    91,
+    0.0
+   ],
+   "causes_union": [],
+   "kinds_union": {}
+  },
+  "booking": {
+   "repo": "guduchango/fastapi-booking",
+   "routes": 9,
+   "tables": 3,
+   "per_seed": [
+    {
+     "seed": 1234,
+     "instantiated": 8,
+     "executed": 1,
+     "source_ok": 1,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 30,
+     "wall_s": 2.9,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 1,
+      "MR7_ABSENT_PATH_RESOURCE": 0,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 2718,
+     "instantiated": 8,
+     "executed": 1,
+     "source_ok": 1,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 30,
+     "wall_s": 2.7,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 1,
+      "MR7_ABSENT_PATH_RESOURCE": 0,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 3141,
+     "instantiated": 8,
+     "executed": 1,
+     "source_ok": 1,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 30,
+     "wall_s": 2.8,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 1,
+      "MR7_ABSENT_PATH_RESOURCE": 0,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 4142,
+     "instantiated": 8,
+     "executed": 1,
+     "source_ok": 1,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 30,
+     "wall_s": 2.7,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 1,
+      "MR7_ABSENT_PATH_RESOURCE": 0,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 5772,
+     "instantiated": 8,
+     "executed": 1,
+     "source_ok": 1,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 30,
+     "wall_s": 2.6,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 1,
+      "MR7_ABSENT_PATH_RESOURCE": 0,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    }
+   ],
+   "executed_mean_ci": [
+    1,
+    0.0
+   ],
+   "failing_mean_ci": [
+    0,
+    0.0
+   ],
+   "causes_mean_ci": [
+    0,
+    0.0
+   ],
+   "wall_mean_ci": [
+    2.74,
+    0.14154878169733554
+   ],
+   "requests_mean_ci": [
+    30,
+    0.0
+   ],
+   "causes_union": [],
+   "kinds_union": {}
+  },
+  "cloudrun": {
+   "repo": "anthonycorletti/cloudrun-fastapi",
+   "routes": 14,
+   "tables": 2,
+   "per_seed": [
+    {
+     "seed": 1234,
+     "instantiated": 22,
+     "executed": 7,
+     "source_ok": 7,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 66,
+     "wall_s": 6.5,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 6,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 1,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 2718,
+     "instantiated": 22,
+     "executed": 7,
+     "source_ok": 7,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 66,
+     "wall_s": 6.5,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 6,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 1,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 3141,
+     "instantiated": 22,
+     "executed": 7,
+     "source_ok": 7,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 66,
+     "wall_s": 6.6,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 6,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 1,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 4142,
+     "instantiated": 22,
+     "executed": 7,
+     "source_ok": 7,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 66,
+     "wall_s": 6.6,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 6,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 1,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    },
+    {
+     "seed": 5772,
+     "instantiated": 22,
+     "executed": 7,
+     "source_ok": 7,
+     "failing_tests": 0,
+     "signatures": 0,
+     "causes": 0,
+     "requests": 66,
+     "wall_s": 6.6,
+     "kinds": {},
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 6,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 1,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 0
+     }
+    }
+   ],
+   "executed_mean_ci": [
+    7,
+    0.0
+   ],
+   "failing_mean_ci": [
+    0,
+    0.0
+   ],
+   "causes_mean_ci": [
+    0,
+    0.0
+   ],
+   "wall_mean_ci": [
+    6.56,
+    0.06799783525966079
+   ],
+   "requests_mean_ci": [
+    66,
+    0.0
+   ],
+   "causes_union": [],
+   "kinds_union": {}
+  },
+  "dispatch": {
+   "repo": "Netflix/dispatch",
+   "routes": 290,
+   "tables": 206,
+   "per_seed": [
+    {
+     "seed": 1234,
+     "instantiated": 577,
+     "executed": 46,
+     "source_ok": 50,
+     "failing_tests": 40,
+     "signatures": 40,
+     "causes": 1,
+     "requests": 1113,
+     "wall_s": 499.8,
+     "kinds": {
+      "server_error": 40
+     },
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 6,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 40
+     }
+    },
+    {
+     "seed": 2718,
+     "instantiated": 577,
+     "executed": 46,
+     "source_ok": 51,
+     "failing_tests": 40,
+     "signatures": 40,
+     "causes": 1,
+     "requests": 1113,
+     "wall_s": 486.7,
+     "kinds": {
+      "server_error": 40
+     },
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 6,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 40
+     }
+    },
+    {
+     "seed": 3141,
+     "instantiated": 577,
+     "executed": 46,
+     "source_ok": 47,
+     "failing_tests": 40,
+     "signatures": 40,
+     "causes": 1,
+     "requests": 1113,
+     "wall_s": 457.5,
+     "kinds": {
+      "server_error": 40
+     },
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 6,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 40
+     }
+    },
+    {
+     "seed": 4142,
+     "instantiated": 577,
+     "executed": 46,
+     "source_ok": 48,
+     "failing_tests": 40,
+     "signatures": 40,
+     "causes": 1,
+     "requests": 1113,
+     "wall_s": 537.0,
+     "kinds": {
+      "server_error": 40
+     },
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 6,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 40
+     }
+    },
+    {
+     "seed": 5772,
+     "instantiated": 577,
+     "executed": 46,
+     "source_ok": 49,
+     "failing_tests": 40,
+     "signatures": 40,
+     "causes": 1,
+     "requests": 1113,
+     "wall_s": 550.7,
+     "kinds": {
+      "server_error": 40
+     },
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 0,
+      "MR5_DELETE_IDEMPOTENCE": 0,
+      "MR6_DANGLING_REFERENCE": 0,
+      "MR7_ABSENT_PATH_RESOURCE": 6,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 40
+     }
+    }
+   ],
+   "executed_mean_ci": [
+    46,
+    0.0
+   ],
+   "failing_mean_ci": [
+    40,
+    0.0
+   ],
+   "causes_mean_ci": [
+    1,
+    0.0
+   ],
+   "wall_mean_ci": [
+    506.34000000000003,
+    46.953362802781236
+   ],
+   "requests_mean_ci": [
+    1113,
+    0.0
+   ],
+   "causes_union": [
+    [
+     "server_error",
+     "{<lit>: [{<lit>: \"Unknown database schema name: dispatch_organization_default-sms-absent\"}]}"
+    ]
+   ],
+   "kinds_union": {
+    "server_error": 40
+   }
+  },
+  "any-auto-register": {
+   "repo": "lxf746/any-auto-register",
+   "routes": 75,
+   "tables": 13,
+   "per_seed": [
+    {
+     "seed": 1234,
+     "instantiated": 30,
+     "executed": 14,
+     "source_ok": 14,
+     "failing_tests": 6,
+     "signatures": 6,
+     "causes": 3,
+     "requests": 252,
+     "wall_s": 499.8,
+     "kinds": {
+      "response_class": 3,
+      "accepted_and_persisted": 3
+     },
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 3,
+      "MR5_DELETE_IDEMPOTENCE": 3,
+      "MR6_DANGLING_REFERENCE": 1,
+      "MR7_ABSENT_PATH_RESOURCE": 6,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 1
+     }
+    },
+    {
+     "seed": 2718,
+     "instantiated": 30,
+     "executed": 14,
+     "source_ok": 14,
+     "failing_tests": 6,
+     "signatures": 6,
+     "causes": 3,
+     "requests": 252,
+     "wall_s": 498.5,
+     "kinds": {
+      "response_class": 3,
+      "accepted_and_persisted": 3
+     },
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 3,
+      "MR5_DELETE_IDEMPOTENCE": 3,
+      "MR6_DANGLING_REFERENCE": 1,
+      "MR7_ABSENT_PATH_RESOURCE": 6,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 1
+     }
+    },
+    {
+     "seed": 3141,
+     "instantiated": 30,
+     "executed": 14,
+     "source_ok": 14,
+     "failing_tests": 6,
+     "signatures": 6,
+     "causes": 3,
+     "requests": 252,
+     "wall_s": 498.3,
+     "kinds": {
+      "response_class": 3,
+      "accepted_and_persisted": 3
+     },
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 3,
+      "MR5_DELETE_IDEMPOTENCE": 3,
+      "MR6_DANGLING_REFERENCE": 1,
+      "MR7_ABSENT_PATH_RESOURCE": 6,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 1
+     }
+    },
+    {
+     "seed": 4142,
+     "instantiated": 30,
+     "executed": 14,
+     "source_ok": 14,
+     "failing_tests": 6,
+     "signatures": 6,
+     "causes": 3,
+     "requests": 252,
+     "wall_s": 498.8,
+     "kinds": {
+      "response_class": 3,
+      "accepted_and_persisted": 3
+     },
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 3,
+      "MR5_DELETE_IDEMPOTENCE": 3,
+      "MR6_DANGLING_REFERENCE": 1,
+      "MR7_ABSENT_PATH_RESOURCE": 6,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 1
+     }
+    },
+    {
+     "seed": 5772,
+     "instantiated": 30,
+     "executed": 14,
+     "source_ok": 14,
+     "failing_tests": 6,
+     "signatures": 6,
+     "causes": 3,
+     "requests": 252,
+     "wall_s": 498.6,
+     "kinds": {
+      "response_class": 3,
+      "accepted_and_persisted": 3
+     },
+     "per_relation": {
+      "MR1_PRINCIPAL_SUBSTITUTION": 0,
+      "MR2_CREDENTIAL_REMOVAL": 0,
+      "MR3_TEMPORAL_INVERSION": 0,
+      "MR4_QUANTITY_NEGATION": 3,
+      "MR5_DELETE_IDEMPOTENCE": 3,
+      "MR6_DANGLING_REFERENCE": 1,
+      "MR7_ABSENT_PATH_RESOURCE": 6,
+      "MR8_ABSENT_SCOPE_TOLERANCE": 1
+     }
+    }
+   ],
+   "executed_mean_ci": [
+    14,
+    0.0
+   ],
+   "failing_mean_ci": [
+    6,
+    0.0
+   ],
+   "causes_mean_ci": [
+    3,
+    0.0
+   ],
+   "wall_mean_ci": [
+    498.8,
+    0.7291955457900169
+   ],
+   "requests_mean_ci": [
+    252,
+    0.0
+   ],
+   "causes_union": [
+    [
+     "MR4_QUANTITY_NEGATION",
+     ""
+    ],
+    [
+     "MR6_DANGLING_REFERENCE",
+     ""
+    ],
+    [
+     "MR7_ABSENT_PATH_RESOURCE",
+     ""
+    ]
+   ],
+   "kinds_union": {
+    "response_class": 3,
+    "accepted_and_persisted": 3
+   }
+  }
+ },
+ "totals_seed1234": {
+  "failing_tests": 46,
+  "signatures": 46,
+  "causes": 4,
+  "executed": 75,
+  "instantiated": 677,
+  "requests": 1552,
+  "wall_s": 1017.8
+ },
+ "ablations": {
+  "no-state": {
+   "realworld": {
+    "rows": [
+     {
+      "seed": 1234,
+      "executed": 7,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     },
+     {
+      "seed": 2718,
+      "executed": 7,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     },
+     {
+      "seed": 3141,
+      "executed": 7,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     }
+    ],
+    "failing_mean_ci": [
+     0,
+     0.0
+    ],
+    "not_in_full_mean_ci": [
+     0,
+     0.0
+    ]
+   },
+   "booking": {
+    "rows": [
+     {
+      "seed": 1234,
+      "executed": 1,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     },
+     {
+      "seed": 2718,
+      "executed": 1,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     },
+     {
+      "seed": 3141,
+      "executed": 1,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     }
+    ],
+    "failing_mean_ci": [
+     0,
+     0.0
+    ],
+    "not_in_full_mean_ci": [
+     0,
+     0.0
+    ]
+   },
+   "cloudrun": {
+    "rows": [
+     {
+      "seed": 1234,
+      "executed": 7,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     },
+     {
+      "seed": 2718,
+      "executed": 7,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     },
+     {
+      "seed": 3141,
+      "executed": 7,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     }
+    ],
+    "failing_mean_ci": [
+     0,
+     0.0
+    ],
+    "not_in_full_mean_ci": [
+     0,
+     0.0
+    ]
+   },
+   "dispatch": {
+    "rows": [
+     {
+      "seed": 1234,
+      "executed": 46,
+      "failing_tests": 40,
+      "causes": 1,
+      "agreeing_with_full": 40,
+      "not_in_full": 0
+     },
+     {
+      "seed": 2718,
+      "executed": 46,
+      "failing_tests": 40,
+      "causes": 1,
+      "agreeing_with_full": 40,
+      "not_in_full": 0
+     },
+     {
+      "seed": 3141,
+      "executed": 46,
+      "failing_tests": 40,
+      "causes": 1,
+      "agreeing_with_full": 40,
+      "not_in_full": 0
+     }
+    ],
+    "failing_mean_ci": [
+     40,
+     0.0
+    ],
+    "not_in_full_mean_ci": [
+     0,
+     0.0
+    ]
+   },
+   "any-auto-register": {
+    "rows": [
+     {
+      "seed": 1234,
+      "executed": 14,
+      "failing_tests": 6,
+      "causes": 3,
+      "agreeing_with_full": 6,
+      "not_in_full": 0
+     },
+     {
+      "seed": 2718,
+      "executed": 14,
+      "failing_tests": 6,
+      "causes": 3,
+      "agreeing_with_full": 6,
+      "not_in_full": 0
+     },
+     {
+      "seed": 3141,
+      "executed": 14,
+      "failing_tests": 6,
+      "causes": 3,
+      "agreeing_with_full": 6,
+      "not_in_full": 0
+     }
+    ],
+    "failing_mean_ci": [
+     6,
+     0.0
+    ],
+    "not_in_full_mean_ci": [
+     0,
+     0.0
+    ]
+   }
+  },
+  "no-contract": {
+   "realworld": {
+    "rows": [
+     {
+      "seed": 1234,
+      "executed": 7,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     },
+     {
+      "seed": 2718,
+      "executed": 7,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     },
+     {
+      "seed": 3141,
+      "executed": 7,
+      "failing_tests": 0,
+      "causes": 0,
+      "agreeing_with_full": 0,
+      "not_in_full": 0
+     }
+    ],
+    "failing_mean_ci": [
+     0,
+     0.0
+    ],
+    "not_in_full_mean_ci": [
+     0,
+     0.0
+    ]
+   },
+   "booking": {
+    "rows": [
+     {
+      "seed": 1234,
+      "executed": 3,
+      "failing_tests": 3,
+      "causes": 2,
+      "agreeing_with_full": 0,
+      "not_in_full": 3
+     },
+     {
+      "seed": 2718,
+      "executed": 3,
+      "failing_tests": 3,
+      "causes": 2,
+      "agreeing_with_full": 0,
+      "not_in_full": 3
+     },
+     {
+      "seed": 3141,
+      "executed": 3,
+      "failing_tests": 3,
+      "causes": 2,
+      "agreeing_with_full": 0,
+      "not_in_full": 3
+     }
+    ],
+    "failing_mean_ci": [
+     3,
+     0.0
+    ],
+    "not_in_full_mean_ci": [
+     3,
+     0.0
+    ]
+   },
+   "cloudrun": {
+    "rows": [
+     {
+      "seed": 1234,
+      "executed": 8,
+      "failing_tests": 1,
+      "causes": 1,
+      "agreeing_with_full": 0,
+      "not_in_full": 1
+     },
+     {
+      "seed": 2718,
+      "executed": 8,
+      "failing_tests": 1,
+      "causes": 1,
+      "agreeing_with_full": 0,
+      "not_in_full": 1
+     },
+     {
+      "seed": 3141,
+      "executed": 8,
+      "failing_tests": 1,
+      "causes": 1,
+      "agreeing_with_full": 0,
+      "not_in_full": 1
+     }
+    ],
+    "failing_mean_ci": [
+     1,
+     0.0
+    ],
+    "not_in_full_mean_ci": [
+     1,
+     0.0
+    ]
+   },
+   "dispatch": {
+    "rows": [
+     {
+      "seed": 1234,
+      "executed": 47,
+      "failing_tests": 41,
+      "causes": 2,
+      "agreeing_with_full": 33,
+      "not_in_full": 8
+     },
+     {
+      "seed": 2718,
+      "executed": 44,
+      "failing_tests": 38,
+      "causes": 2,
+      "agreeing_with_full": 27,
+      "not_in_full": 11
+     },
+     {
+      "seed": 3141,
+      "executed": 47,
+      "failing_tests": 41,
+      "causes": 2,
+      "agreeing_with_full": 31,
+      "not_in_full": 10
+     }
+    ],
+    "failing_mean_ci": [
+     40,
+     4.303
+    ],
+    "not_in_full_mean_ci": [
+     9.666666666666666,
+     3.7948892971703114
+    ]
+   },
+   "any-auto-register": {
+    "rows": [
+     {
+      "seed": 1234,
+      "executed": 59,
+      "failing_tests": 47,
+      "causes": 4,
+      "agreeing_with_full": 15,
+      "not_in_full": 32
+     },
+     {
+      "seed": 2718,
+      "executed": 59,
+      "failing_tests": 47,
+      "causes": 4,
+      "agreeing_with_full": 15,
+      "not_in_full": 32
+     },
+     {
+      "seed": 3141,
+      "executed": 59,
+      "failing_tests": 47,
+      "causes": 4,
+      "agreeing_with_full": 15,
+      "not_in_full": 32
+     }
+    ],
+    "failing_mean_ci": [
+     47,
+     0.0
+    ],
+    "not_in_full_mean_ci": [
+     32,
+     0.0
+    ]
+   }
+  }
+ },
+ "oracle_contribution": {
+  "state_only": 0,
+  "response_only": 43,
+  "both": 3
+ },
+ "baseline": {
+  "realworld": {
+   "wall_s": 56.5,
+   "timed_out": false,
+   "credentialed": true,
+   "failing_tests": 1956,
+   "signatures": 127,
+   "causes": 26,
+   "by_check": {
+    "status_code_conformance": 1585,
+    "positive_data_acceptance": 214,
+    "unsupported_method": 61,
+    "response_schema_conformance": 47,
+    "ignored_auth": 25,
+    "missing_required_header": 15,
+    "negative_data_rejection": 9
+   },
+   "behavioural_causes": 12,
+   "conformance_causes": 14,
+   "server_error_causes": 0
+  },
+  "booking": {
+   "wall_s": 25.1,
+   "timed_out": false,
+   "credentialed": false,
+   "failing_tests": 984,
+   "signatures": 22,
+   "causes": 8,
+   "by_check": {
+    "status_code_conformance": 532,
+    "not_a_server_error": 336,
+    "positive_data_acceptance": 106,
+    "negative_data_rejection": 7,
+    "allow_header_conformance": 3
+   },
+   "behavioural_causes": 6,
+   "conformance_causes": 2,
+   "server_error_causes": 1
+  },
+  "cloudrun": {
+   "wall_s": 48.3,
+   "timed_out": false,
+   "credentialed": true,
+   "failing_tests": 1192,
+   "signatures": 46,
+   "causes": 19,
+   "by_check": {
+    "positive_data_acceptance": 491,
+    "status_code_conformance": 439,
+    "not_a_server_error": 161,
+    "response_schema_conformance": 95,
+    "allow_header_conformance": 3,
+    "negative_data_rejection": 3
+   },
+   "behavioural_causes": 6,
+   "conformance_causes": 13,
+   "server_error_causes": 1
+  },
+  "dispatch": {
+   "wall_s": 1559.6,
+   "timed_out": true,
+   "credentialed": true,
+   "failing_tests": 22737,
+   "signatures": 58,
+   "causes": 6,
+   "by_check": {
+    "positive_data_acceptance": 22329,
+    "not_a_server_error": 355,
+    "status_code_conformance": 26,
+    "allow_header_conformance": 17,
+    "unsupported_method": 10
+   },
+   "behavioural_causes": 2,
+   "conformance_causes": 4,
+   "server_error_causes": 1
+  },
+  "any-auto-register": {
+   "wall_s": 50.4,
+   "timed_out": false,
+   "credentialed": false,
+   "failing_tests": 3293,
+   "signatures": 165,
+   "causes": 31,
+   "by_check": {
+    "status_code_conformance": 1904,
+    "positive_data_acceptance": 544,
+    "not_a_server_error": 396,
+    "content_type_conformance": 372,
+    "negative_data_rejection": 51,
+    "unsupported_method": 15,
+    "allow_header_conformance": 11
+   },
+   "behavioural_causes": 17,
+   "conformance_causes": 14,
+   "server_error_causes": 1
+  }
+ },
+ "validation": {
+  "records": [
+   {
+    "id": "R1",
+    "target": "dispatch",
+    "claim": "GET /{organization}/auth/myrole with a non-existent organization returns an unhandled 500 (\"Unknown database schema name\") instead of 404",
+    "confirmed": true,
+    "confirmation_method": "independent_http",
+    "evidence": {
+     "control": {
+      "path": "/api/v1/default/auth/myrole",
+      "status": 200,
+      "body": "\"Member\""
+     },
+     "followup": {
+      "path": "/api/v1/default-does-not-exist/auth/myrole",
+      "status": 500,
+      "body": "{\"detail\":[{\"msg\":\"Unknown database schema name: dispatch_organization_default-does-not-exist\"}]}"
+     }
+    }
+   },
+   {
+    "id": "R2",
+    "target": "any-auto-register",
+    "claim": "POST /api/lifecycle/check accepts and acts on a negative \"limit\" value with no non-negativity check",
+    "confirmed": true,
+    "confirmation_method": "independent_http",
+    "evidence": {
+     "control": {
+      "body": "{\"limit\": 5}",
+      "status": 200,
+      "response": "{\"error\": 5, \"skipped\": 0}"
+     },
+     "followup": {
+      "body": "{\"limit\": -5}",
+      "status": 200,
+      "response": "{\"error\": 205, \"skipped\": 15}"
+     }
+    },
+    "fresh_instance_check": {
+     "date": "2026-11-19",
+     "script": "local_validation_2026-11-19/r2_check.py",
+     "setup": "fresh offline container, 12 accounts, no background tasks",
+     "limit=5": "{\"ok\":true,\"data\":{\"valid\":0,\"invalid\":0,\"error\":5,\"skipped\":0}}",
+     "limit=0": "{\"ok\":true,\"data\":{\"valid\":0,\"invalid\":0,\"error\":0,\"skipped\":0}}",
+     "limit=-5": "{\"ok\":true,\"data\":{\"valid\":0,\"invalid\":0,\"error\":12,\"skipped\":0}}",
+     "cause_in_code": "core/lifecycle.py passes limit to SQL LIMIT unchecked; SQLite treats a negative LIMIT as no limit"
+    },
+    "note": "The original evidence (error 205 for limit=-5) was gathered on a database that had accumulated state across runs; the fresh-instance check reproduces the behaviour: -5 acts on all 12 accounts, 5 on five."
+   },
+   {
+    "id": "R3",
+    "target": "any-auto-register",
+    "claim": "POST /api/accounts accepts and stores an arbitrary user_id value with no existence check",
+    "confirmed": true,
+    "confirmation_method": "independent_http_and_db",
+    "evidence": {
+     "followup": {
+      "body": "{\"user_id\": \"999999999\", ...}",
+      "status": 200,
+      "response_excerpt": "\"user_id\":\"999999999\""
+     }
+    },
+    "db_check": {
+     "date": "2026-11-19",
+     "script": "local_validation_2026-11-19/r3_check.py",
+     "status": 200,
+     "inserted_accounts_rows": [
+      {
+       "rowid": 1,
+       "id": 1,
+       "platform": "anything",
+       "email": "r3@example.com",
+       "password": "Pw-123456",
+       "user_id": "999999999",
+       "created_at": "2026-11-19 20:54:21.860822",
+       "updated_at": "2026-11-19 20:54:21.860829"
+      }
+     ],
+     "user_tables_in_schema": []
+    },
+    "defect_assessment": {
+     "judged_defect": false,
+     "reason": "The API has no user resource (no /users path, no user table). The FOREIGN_REFERENCE witness matched user_id through the fallback in sms/contract.py find_foreign_refs, which uses the name's stem when no collection matches. In the target's code user_id holds the account's identifier on the external platform (e.g. platforms/trae/browser_register.py), so storing an unchecked value is not a dangling reference.",
+     "pending": "second, blinded adjudicator"
+    }
+   },
+   {
+    "id": "R4",
+    "target": "any-auto-register",
+    "claim": "PUT /api/platforms/{name}/capabilities accepts an absent platform name (200 instead of 404)",
+    "confirmed": true,
+    "confirmation_method": "independent_http_and_db",
+    "evidence": {
+     "control": {
+      "path": "PUT /api/platforms/anything/capabilities",
+      "status": 200,
+      "body": "{\"ok\":true}"
+     },
+     "followup": {
+      "path": "PUT /api/platforms/sms-absent-platform-7f3a/capabilities",
+      "status": 200,
+      "body": "{\"ok\":true}",
+      "delta": {
+       "platform_capability_overrides": {
+        "inserted": 1,
+        "deleted": 0,
+        "modified": 0
+       }
+      }
+     },
+     "absent_name_listed_after_put": false,
+     "other_endpoint_on_absent_name": {
+      "status": 500,
+      "body": "Internal Server Error"
+     },
+     "script": "local_validation_2026-11-19/independent_check_r4_r5.py r4",
+     "date": "2026-11-19"
+    }
+   }
+  ],
+  "n": 4,
+  "confirmed": 4
+ }
+}

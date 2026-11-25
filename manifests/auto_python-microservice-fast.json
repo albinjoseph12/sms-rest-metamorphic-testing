@@ -1,0 +1,52 @@
+{
+ "id": "python-microservice-fast",
+ "repo": "paurakhsharma/python-microservice-fastapi",
+ "app": "app.main:app",
+ "port": 9031,
+ "python": "3.11",
+ "db": "postgres",
+ "db_name": "sms_python_microservice_fast",
+ "deps": {
+  "kind": "requirements",
+  "files": [
+   "requirements.txt"
+  ],
+  "extra": [
+   "uvicorn",
+   "httpx"
+  ]
+ },
+ "env": {
+  "SECRET_KEY": "smsbench",
+  "API_SECRET_KEY": "smsbench",
+  "JWT_SECRET_KEY": "smsbench",
+  "JWT_SECRET": "smsbench",
+  "SECRET": "smsbench",
+  "ENVIRONMENT": "local",
+  "ENV": "test",
+  "API_ENV": "test",
+  "DEBUG": "False",
+  "PROJECT_NAME": "sms",
+  "BACKEND_CORS_ORIGINS": "[]",
+  "FIRST_SUPERUSER": "admin@example.com",
+  "FIRST_SUPERUSER_PASSWORD": "smsbench123",
+  "POSTGRES_USER": "acb",
+  "POSTGRES_PASSWORD": "acb",
+  "POSTGRES_SERVER": "localhost",
+  "POSTGRES_HOST": "localhost",
+  "POSTGRES_PORT": "5432",
+  "REDIS_URL": "redis://localhost:6379/2",
+  "OPENAI_API_KEY": "sk-not-used",
+  "ACCESS_TOKEN_EXPIRE_MINUTES": "60",
+  "DATABASE_URL": "postgresql://acb:acb@localhost:5432/sms_python_microservice_fast",
+  "DB_DSN": "postgresql://acb:acb@localhost:5432/sms_python_microservice_fast",
+  "SQLALCHEMY_DATABASE_URI": "postgresql://acb:acb@localhost:5432/sms_python_microservice_fast",
+  "POSTGRES_DB": "sms_python_microservice_fast",
+  "DB_URL": "postgresql://acb:acb@localhost:5432/sms_python_microservice_fast",
+  "DATABASE_URI": "postgresql://acb:acb@localhost:5432/sms_python_microservice_fast",
+  "DATABASE_URL_ASYNC": "postgresql+asyncpg://acb:acb@localhost:5432/sms_python_microservice_fast"
+ },
+ "migrate": [],
+ "factory": false,
+ "subdir": "movie-service"
+}

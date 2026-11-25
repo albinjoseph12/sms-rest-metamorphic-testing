@@ -1,0 +1,52 @@
+{
+ "id": "open-trading-api",
+ "repo": "koreainvestment/open-trading-api",
+ "app": "backend.main:app",
+ "port": 9119,
+ "python": "3.11",
+ "db": "sqlite",
+ "db_name": "sms_open_trading_api",
+ "deps": {
+  "kind": "pyproject",
+  "extra": [
+   "uvicorn",
+   "httpx"
+  ]
+ },
+ "env": {
+  "SECRET_KEY": "smsbench",
+  "API_SECRET_KEY": "smsbench",
+  "JWT_SECRET_KEY": "smsbench",
+  "JWT_SECRET": "smsbench",
+  "SECRET": "smsbench",
+  "ENVIRONMENT": "local",
+  "ENV": "test",
+  "API_ENV": "test",
+  "DEBUG": "False",
+  "PROJECT_NAME": "sms",
+  "BACKEND_CORS_ORIGINS": "[]",
+  "FIRST_SUPERUSER": "admin@example.com",
+  "FIRST_SUPERUSER_PASSWORD": "smsbench123",
+  "POSTGRES_USER": "acb",
+  "POSTGRES_PASSWORD": "acb",
+  "POSTGRES_SERVER": "localhost",
+  "POSTGRES_HOST": "localhost",
+  "POSTGRES_PORT": "5432",
+  "REDIS_URL": "redis://localhost:6379/2",
+  "OPENAI_API_KEY": "sk-not-used",
+  "ACCESS_TOKEN_EXPIRE_MINUTES": "60",
+  "ADMIN_USERNAME": "smsadmin",
+  "ADMIN_PASSWORD": "SmsBench!2345",
+  "ADMIN_EMAIL": "smsadmin@example.com",
+  "ADMIN_TOKEN": "smsbench",
+  "DEFAULT_USER": "smsadmin",
+  "DEFAULT_PASSWORD": "SmsBench!2345",
+  "DATABASE_URL": "sqlite:////opt/sms/targets/koreainvestment_open-trading-api/backtester/sms_target.db",
+  "DB_DSN": "sqlite:////opt/sms/targets/koreainvestment_open-trading-api/backtester/sms_target.db",
+  "SQLALCHEMY_DATABASE_URI": "sqlite:////opt/sms/targets/koreainvestment_open-trading-api/backtester/sms_target.db",
+  "DB_URL": "sqlite:////opt/sms/targets/koreainvestment_open-trading-api/backtester/sms_target.db"
+ },
+ "migrate": [],
+ "factory": false,
+ "subdir": "backtester"
+}

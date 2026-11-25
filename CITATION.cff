@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper below."
+title: "Semantic Metamorphic Testing of REST APIs with a Persistence-State Oracle — replication package"
+type: software
+authors:
+  - family-names: Joseph
+    given-names: Albin
+    orcid: "https://orcid.org/0009-0008-5086-6730"
+license: MIT
+keywords: [metamorphic testing, REST API testing, test oracles, OpenAPI]
+preferred-citation:
+  type: article
+  title: "Semantic Metamorphic Testing of REST APIs with a Persistence-State Oracle"
+  authors:
+    - family-names: Joseph
+      given-names: Albin
+      orcid: "https://orcid.org/0009-0008-5086-6730"
+  status: submitted

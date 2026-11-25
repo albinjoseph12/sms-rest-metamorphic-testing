@@ -1,0 +1,41 @@
+{
+ "id": "fullstack",
+ "repo": "fastapi/full-stack-fastapi-template",
+ "subdir": "backend",
+ "app": "app.main:app",
+ "port": 9002,
+ "python": "3.13",
+ "db": "postgres",
+ "db_name": "sms_fullstack",
+ "openapi": "/api/v1/openapi.json",
+ "deps": {
+  "kind": "list",
+  "packages": [
+   "fastapi[standard]>=0.141.1,<1.0.0",
+   "python-multipart",
+   "email-validator",
+   "pydantic>2.0",
+   "emails>=1.1.2,<2.0",
+   "jinja2",
+   "alembic",
+   "httpx",
+   "psycopg[binary]",
+   "sqlmodel",
+   "pydantic-settings",
+   "pyjwt",
+   "pwdlib[argon2,bcrypt]",
+   "uvicorn"
+  ]
+ },
+ "env": {
+  "SECRET_KEY": "smsbench",
+  "FIRST_SUPERUSER": "admin@example.com",
+  "FIRST_SUPERUSER_PASSWORD": "smsbench123",
+  "FASTAPI_ENV": "local",
+  "PROJECT_NAME": "sms",
+  "DATABASE_URL": "postgresql+psycopg://acb:acb@localhost:5432/sms_fullstack"
+ },
+ "migrate": [
+  "alembic upgrade head"
+ ]
+}

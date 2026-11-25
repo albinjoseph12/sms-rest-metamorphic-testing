@@ -1,0 +1,63 @@
+{
+ "id": "codex-console",
+ "repo": "dou-jiang/codex-console",
+ "app": "src.web.app:create_app",
+ "port": 9215,
+ "python": "3.11",
+ "db": "postgres",
+ "db_name": "sms_codex_console",
+ "deps": {
+  "kind": "requirements",
+  "files": [
+   "requirements.txt"
+  ],
+  "extra": [
+   "uvicorn",
+   "httpx"
+  ],
+  "post_install": [
+   [
+    "requests"
+   ]
+  ]
+ },
+ "env": {
+  "SECRET_KEY": "smsbench",
+  "API_SECRET_KEY": "smsbench",
+  "JWT_SECRET_KEY": "smsbench",
+  "JWT_SECRET": "smsbench",
+  "SECRET": "smsbench",
+  "ENVIRONMENT": "local",
+  "ENV": "test",
+  "API_ENV": "test",
+  "DEBUG": "False",
+  "PROJECT_NAME": "sms",
+  "BACKEND_CORS_ORIGINS": "[]",
+  "FIRST_SUPERUSER": "admin@example.com",
+  "FIRST_SUPERUSER_PASSWORD": "smsbench123",
+  "POSTGRES_USER": "acb",
+  "POSTGRES_PASSWORD": "acb",
+  "POSTGRES_SERVER": "localhost",
+  "POSTGRES_HOST": "localhost",
+  "POSTGRES_PORT": "5432",
+  "REDIS_URL": "redis://localhost:6379/2",
+  "OPENAI_API_KEY": "sk-not-used",
+  "ACCESS_TOKEN_EXPIRE_MINUTES": "60",
+  "ADMIN_USERNAME": "smsadmin",
+  "ADMIN_PASSWORD": "SmsBench!2345",
+  "ADMIN_EMAIL": "smsadmin@example.com",
+  "ADMIN_TOKEN": "smsbench",
+  "DEFAULT_USER": "smsadmin",
+  "DEFAULT_PASSWORD": "SmsBench!2345",
+  "DATABASE_URL": "postgresql://acb:acb@localhost:5432/sms_codex_console",
+  "DB_DSN": "postgresql://acb:acb@localhost:5432/sms_codex_console",
+  "SQLALCHEMY_DATABASE_URI": "postgresql://acb:acb@localhost:5432/sms_codex_console",
+  "POSTGRES_DB": "sms_codex_console",
+  "DB_URL": "postgresql://acb:acb@localhost:5432/sms_codex_console",
+  "DATABASE_URI": "postgresql://acb:acb@localhost:5432/sms_codex_console",
+  "DATABASE_URL_ASYNC": "postgresql+asyncpg://acb:acb@localhost:5432/sms_codex_console"
+ },
+ "migrate": [],
+ "factory": true,
+ "openapi": "/openapi.json"
+}

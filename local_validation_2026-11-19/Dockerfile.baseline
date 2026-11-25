@@ -1,0 +1,4 @@
+FROM sms-eng:ba10042
+RUN uv venv /opt/sms/venvs/_baseline --python /usr/local/bin/python \
+ && uv pip install --python /opt/sms/venvs/_baseline/bin/python --exclude-newer 2026-09-12 schemathesis==4.27.0 \
+ && /opt/sms/venvs/_baseline/bin/schemathesis --version

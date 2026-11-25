@@ -1,0 +1,28 @@
+{
+ "id": "cloudrun",
+ "repo": "anthonycorletti/cloudrun-fastapi",
+ "app": "cloudrunfastapi.main:api",
+ "port": 9003,
+ "python": "3.11",
+ "db": "postgres",
+ "db_name": "sms_cloudrun",
+ "deps": {
+  "kind": "pyproject",
+  "post_install": [
+   [
+    "bcrypt<4.1"
+   ]
+  ]
+ },
+ "env": {
+  "JWT_SECRET_KEY": "smsbench",
+  "SECRET_KEY": "smsbench",
+  "ENV": "test",
+  "DATABASE_URL": "postgresql://acb:acb@localhost:5432/sms_cloudrun",
+  "API_SECRET_KEY": "smsbench",
+  "API_ENV": "test"
+ },
+ "migrate": [
+  "alembic upgrade head"
+ ]
+}

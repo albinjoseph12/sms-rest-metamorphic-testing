@@ -1,0 +1,49 @@
+{
+ "id": "sqlbot",
+ "repo": "dataease/SQLBot",
+ "app": "main:mcp_app",
+ "port": 9077,
+ "python": "3.11",
+ "db": "postgres",
+ "db_name": "sms_sqlbot",
+ "deps": {
+  "kind": "pyproject",
+  "extra": [
+   "uvicorn",
+   "httpx"
+  ]
+ },
+ "env": {
+  "SECRET_KEY": "smsbench",
+  "API_SECRET_KEY": "smsbench",
+  "JWT_SECRET_KEY": "smsbench",
+  "JWT_SECRET": "smsbench",
+  "SECRET": "smsbench",
+  "ENVIRONMENT": "local",
+  "ENV": "test",
+  "API_ENV": "test",
+  "DEBUG": "False",
+  "PROJECT_NAME": "sms",
+  "BACKEND_CORS_ORIGINS": "[]",
+  "FIRST_SUPERUSER": "admin@example.com",
+  "FIRST_SUPERUSER_PASSWORD": "smsbench123",
+  "POSTGRES_USER": "acb",
+  "POSTGRES_PASSWORD": "acb",
+  "POSTGRES_SERVER": "localhost",
+  "POSTGRES_HOST": "localhost",
+  "POSTGRES_PORT": "5432",
+  "REDIS_URL": "redis://localhost:6379/2",
+  "OPENAI_API_KEY": "sk-not-used",
+  "ACCESS_TOKEN_EXPIRE_MINUTES": "60",
+  "DATABASE_URL": "postgresql://acb:acb@localhost:5432/sms_sqlbot",
+  "DB_DSN": "postgresql://acb:acb@localhost:5432/sms_sqlbot",
+  "SQLALCHEMY_DATABASE_URI": "postgresql://acb:acb@localhost:5432/sms_sqlbot",
+  "POSTGRES_DB": "sms_sqlbot",
+  "DB_URL": "postgresql://acb:acb@localhost:5432/sms_sqlbot",
+  "DATABASE_URI": "postgresql://acb:acb@localhost:5432/sms_sqlbot",
+  "DATABASE_URL_ASYNC": "postgresql+asyncpg://acb:acb@localhost:5432/sms_sqlbot"
+ },
+ "migrate": [],
+ "factory": false,
+ "subdir": "backend"
+}
