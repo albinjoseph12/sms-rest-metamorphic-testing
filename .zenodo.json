@@ -1,0 +1,22 @@
+{
+  "title": "Semantic Metamorphic Testing of REST APIs with a Persistence-State Oracle \u2014 Replication Package",
+  "description": "Replication package for SMS (Semantic Metamorphic System): source code, target acquisition protocol, natural-corpus results, five-fault synthetic state-only injection study, five-seed Schemathesis baseline, and quiescence-window sensitivity sweep.",
+  "upload_type": "software",
+  "version": "1.0.1",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Joseph, Albin",
+      "affiliation": "Independent Researcher, Fremont, California, USA",
+      "orcid": "0009-0008-5086-6730"
+    }
+  ],
+  "keywords": [
+    "metamorphic testing",
+    "REST API testing",
+    "test oracles",
+    "database state",
+    "OpenAPI"
+  ],
+  "access_right": "open"
+}

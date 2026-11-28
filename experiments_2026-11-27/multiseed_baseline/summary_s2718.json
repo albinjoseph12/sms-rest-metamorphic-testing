@@ -1,0 +1,103 @@
+{
+ "target": "any-auto-register",
+ "repo": "lxf746/any-auto-register",
+ "tool": "schemathesis",
+ "budget_s": 300.0,
+ "wall_s": 103.8,
+ "timed_out": false,
+ "returncode": 1,
+ "credentialed": false,
+ "bootstrap": {
+  "register_ops": [
+   "/api/tasks/register",
+   "/api/accounts"
+  ],
+  "login_ops": [
+   "/api/auth/login"
+  ],
+  "principals": {
+   "A": {
+    "registered": false,
+    "has_token": false
+   },
+   "B": {
+    "registered": true,
+    "has_token": false
+   }
+  },
+  "two_principals": false
+ },
+ "state_delta": {
+  "tables": {
+   "account_credentials": {
+    "inserted": 17,
+    "deleted": 0,
+    "modified": 0
+   },
+   "account_overviews": {
+    "inserted": 117,
+    "deleted": 0,
+    "modified": 0
+   },
+   "accounts": {
+    "inserted": 117,
+    "deleted": 0,
+    "modified": 0
+   },
+   "platform_capability_overrides": {
+    "inserted": 11,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_accounts": {
+    "inserted": 9,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_definitions": {
+    "inserted": 11,
+    "deleted": 18,
+    "modified": 0
+   },
+   "provider_resources": {
+    "inserted": 2,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_settings": {
+    "inserted": 1,
+    "deleted": 0,
+    "modified": 0
+   },
+   "proxies": {
+    "inserted": 13,
+    "deleted": 0,
+    "modified": 0
+   },
+   "task_events": {
+    "inserted": 3465,
+    "deleted": 0,
+    "modified": 0
+   },
+   "tasks": {
+    "inserted": 231,
+    "deleted": 0,
+    "modified": 1
+   }
+  },
+  "examples": [
+   "account_credentials#13",
+   "account_credentials#1",
+   "account_credentials#3",
+   "account_credentials#14",
+   "account_credentials#9",
+   "account_credentials#10"
+  ],
+  "n_inserted": 3994,
+  "n_deleted": 18,
+  "n_modified": 1
+ },
+ "events": 627,
+ "stdout_tail": "96720977443969e-84]}, \"6i\\u00de\\udbca\\udc64\\u0007\\u00f1\\udb5e\\udd93\\u00fa\": {\"\\u0088\": true, \"N\\u00b4p\\u009c\\udbca\\udc08\\u00df\\ud9d1\\uddc5S\\ud95a\\udcab\\ud8f7\\udef4\\u00c8\\u00b2\\ud9b4\\udd59KO \\u0017\\u00d8\\f\\u0083\\ud9e7\\udc3d\\u009eK{|\\ud815\\udd937\\u00c5\\\\\\udb60\\udfbe\": \"\\u000e\", \"Q\\u00d7\\u00a8\\u007f\\u00ce\\u0092\\u00fb\\u00da2\\u00e9;\\u00a0\\u00b1_)\\u00d9\": true}, \"label\": \"=\\u00bd\\ud899\\udcdb\\u00fe\\udbe7\\ude3a\\ud83c\\udd6d\\u00dd\\u00dc\", \"provider_type\": \"J\", \"provider_key\": \"\\u00dc\\u00b2\\udaf2\\udef5\\u0080t\\u0012\", \"driver_type\": \"\\u009eg\\u00c2a\\ud93b\\udcff`\\u0095\\udb8b\\udd1c\\u000f\", \"id\": 0}' http://127.0.0.1:9110/api/provider-definitions\n    curl -X PUT -H 'Content-Type: application/json' -d 'g\ufffd\ufffd\ufffd<\ufffd\ufffd' http://127.0.0.1:9110/api/provider-definitions\n    \n    st replay RiXBoS\n\n=================================== SUMMARY ====================================\n\nAPI Operations:\n  Selected: 75/75\n  Tested: 75\n\nTest Phases:\n  \u23ed  Examples\n  \ud83d\udeab Coverage\n  \ud83d\udeab Fuzzing\n  \ud83d\udeab Stateful\n\nFailures:\n  \u274c Server error: 22\n  \u274c API accepted schema-violating request: 20\n  \u274c API rejected schema-compliant request: 13\n  \u274c Invalid Allow header: 11\n  \u274c Undocumented Content-Type: 4\n  \u274c Undocumented HTTP status code: 62\n  \u274c Unsupported methods: 9\n\nErrors:\n  \ud83d\udeab Network Error: 3\n\nTest cases:\n  7837 generated, 109 found 141 unique failures, 5 skipped\n\nReports:\n  - NDJSON: /opt/sms/results/baseline/any-auto-register/events.ndjson\n\nSeed: 2718\n\n====================== 141 failures, 3 errors in 102.45s =======================\n",
+ "raw_events_file": "/opt/sms/results/baseline/any-auto-register/events.ndjson"
+}

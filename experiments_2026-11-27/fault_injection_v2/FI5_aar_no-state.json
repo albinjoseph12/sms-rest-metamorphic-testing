@@ -1,0 +1,753 @@
+{
+ "target": "any-auto-register",
+ "repo": "lxf746/any-auto-register",
+ "variant": "no-state",
+ "seed": 1234,
+ "db": "sqlite",
+ "tables": 13,
+ "routes": 75,
+ "spec_title": "Account Manager",
+ "oracle": {
+  "quiet_window_s": 0.5
+ },
+ "bootstrap": {
+  "register_ops": [
+   "/api/tasks/register",
+   "/api/accounts"
+  ],
+  "login_ops": [
+   "/api/auth/login"
+  ],
+  "principals": {
+   "A": {
+    "registered": false,
+    "has_token": false
+   },
+   "B": {
+    "registered": true,
+    "has_token": false
+   }
+  },
+  "two_principals": false
+ },
+ "db_dsn": "/app/account_manager.db",
+ "seeding": {
+  "create_ops": 29,
+  "create_attempts": 200,
+  "successful_creates": 16,
+  "instances": 28,
+  "tables_touched": [
+   "account_overviews",
+   "accounts",
+   "provider_accounts",
+   "provider_resources",
+   "proxies",
+   "task_events"
+  ]
+ },
+ "invariants": {
+  "FOREIGN_REFERENCE": 2,
+  "PATH_REFERENCE": 20,
+  "DELETE_IDEMPOTENT": 5,
+  "NONNEGATIVE_QUANTITY": 3
+ },
+ "stats": {
+  "instantiated": 30,
+  "executed": 14,
+  "source_ok": 14,
+  "violations": 6,
+  "not_applicable": {
+   "MR5:source_removed_nothing": 1
+  },
+  "source_status": {
+   "404": 9,
+   "500": 6
+  },
+  "source_failed": 15,
+  "per_relation": {
+   "MR1_PRINCIPAL_SUBSTITUTION": 0,
+   "MR2_CREDENTIAL_REMOVAL": 0,
+   "MR3_TEMPORAL_INVERSION": 0,
+   "MR4_QUANTITY_NEGATION": 3,
+   "MR5_DELETE_IDEMPOTENCE": 3,
+   "MR6_DANGLING_REFERENCE": 1,
+   "MR7_ABSENT_PATH_RESOURCE": 6,
+   "MR8_ABSENT_SCOPE_TOLERANCE": 1
+  },
+  "requests": 252,
+  "wall_s": 253.5,
+  "quiescence": {
+   "execs": 245,
+   "execs_with_exclusions": 19,
+   "quiesce_timeouts": 0,
+   "quiesce_wait_s": 125.9,
+   "window_s": 0.5
+  }
+ },
+ "records": [
+  {
+   "mr": "MR4_QUANTITY_NEGATION",
+   "target_op": "trigger_validity_check_api_lifecycle_check_post",
+   "method": "post",
+   "path": "/api/lifecycle/check",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 200,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"ok\": true, \"data\": {\"valid\": 0, \"invalid\": 0, \"error\": 4, \"skipped\": 0}}"
+   },
+   "verdict": {
+    "violation": true,
+    "resp_ok": false,
+    "state_ok": true,
+    "kind": "response_class"
+   },
+   "fields": {
+    "quantity": "limit"
+   },
+   "control_status": 200
+  },
+  {
+   "mr": "MR4_QUANTITY_NEGATION",
+   "target_op": "trigger_token_refresh_api_lifecycle_refresh_post",
+   "method": "post",
+   "path": "/api/lifecycle/refresh",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 200,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"ok\": true, \"data\": {\"refreshed\": 0, \"failed\": 0, \"skipped\": 4}}"
+   },
+   "verdict": {
+    "violation": true,
+    "resp_ok": false,
+    "state_ok": true,
+    "kind": "response_class"
+   },
+   "fields": {
+    "quantity": "limit"
+   },
+   "control_status": 200
+  },
+  {
+   "mr": "MR4_QUANTITY_NEGATION",
+   "target_op": "create_register_task_api_tasks_register_post",
+   "method": "post",
+   "path": "/api/tasks/register",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0,
+     "background_tables": [
+      "task_events",
+      "tasks"
+     ]
+    }
+   },
+   "followup": {
+    "status": 200,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0,
+     "background_tables": [
+      "task_events",
+      "tasks"
+     ]
+    },
+    "body": "{\"id\": \"task_1795815911061_544a59\", \"task_id\": \"task_1795815911061_544a59\", \"type\": \"register\", \"platform\": \"s147jsnw\", \"status\": \"pending\", \"terminal\": false, \"cancellable\": true, \"progress\": \"0/1\", \"progress_detail\": {\"current\": 0, \"total\": 1, \"label\": \"0/1\"}, \"success\": 0, \"error_count\": 0, \"erro"
+   },
+   "verdict": {
+    "violation": true,
+    "resp_ok": false,
+    "state_ok": true,
+    "kind": "response_class"
+   },
+   "fields": {
+    "quantity": "count"
+   },
+   "control_status": 200
+  },
+  {
+   "mr": "MR5_DELETE_IDEMPOTENCE",
+   "target_op": "delete_account_api_accounts__account_id__delete",
+   "method": "delete",
+   "path": "/api/accounts/{account_id}",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "account_overviews": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      },
+      "accounts": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      },
+      "provider_accounts": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      },
+      "provider_resources": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "account_overviews#1",
+      "accounts#1",
+      "provider_accounts#1",
+      "provider_resources#1"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 4,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 404,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"detail\": \"\\u8d26\\u53f7\\u4e0d\\u5b58\\u5728\"}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   }
+  },
+  {
+   "mr": "MR5_DELETE_IDEMPOTENCE",
+   "target_op": "delete_provider_definition_api_provider_definitions__definition_id__delete",
+   "method": "delete",
+   "path": "/api/provider-definitions/{definition_id}",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "provider_definitions": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "provider_definitions#1"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 1,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 404,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"detail\": \"provider definition \\u4e0d\\u5b58\\u5728\"}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   }
+  },
+  {
+   "mr": "MR5_DELETE_IDEMPOTENCE",
+   "target_op": "delete_proxy_api_proxies__proxy_id__delete",
+   "method": "delete",
+   "path": "/api/proxies/{proxy_id}",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "proxies": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "proxies#1"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 1,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 404,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"detail\": \"\\u4ee3\\u7406\\u4e0d\\u5b58\\u5728\"}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   }
+  },
+  {
+   "mr": "MR6_DANGLING_REFERENCE",
+   "target_op": "create_account_api_accounts_post",
+   "method": "post",
+   "path": "/api/accounts",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "account_overviews": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      },
+      "accounts": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      },
+      "provider_accounts": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      },
+      "provider_resources": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "account_overviews#6",
+      "accounts#6",
+      "provider_accounts#6",
+      "provider_resources#6"
+     ],
+     "n_inserted": 4,
+     "n_deleted": 0,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "account_overviews": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      },
+      "accounts": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      },
+      "provider_accounts": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      },
+      "provider_resources": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "account_overviews#5",
+      "accounts#5",
+      "provider_accounts#5",
+      "provider_resources#5"
+     ],
+     "n_inserted": 4,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"id\": 5, \"platform\": \"s151theg\", \"email\": \"u152toto@example.com\", \"password\": \"SmsBench!2345\", \"user_id\": \"-sms-absent\", \"primary_token\": \"\", \"trial_end_time\": 0, \"cashier_url\": \"\", \"lifecycle_status\": \"registered\", \"validity_status\": \"unknown\", \"plan_state\": \"unknown\", \"plan_name\": \"\", \"display_st"
+   },
+   "verdict": {
+    "violation": true,
+    "resp_ok": false,
+    "state_ok": true,
+    "kind": "response_class"
+   },
+   "fields": {
+    "reference": "user_id"
+   },
+   "control_status": 200
+  },
+  {
+   "mr": "MR7_ABSENT_PATH_RESOURCE",
+   "target_op": "update_platform_capabilities_api_platforms__name__capabilities_put",
+   "method": "put",
+   "path": "/api/platforms/{name}/capabilities",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "platform_capability_overrides": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "platform_capability_overrides#12"
+     ],
+     "n_inserted": 1,
+     "n_deleted": 0,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "platform_capability_overrides": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "platform_capability_overrides#13"
+     ],
+     "n_inserted": 1,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"ok\": true}"
+   },
+   "verdict": {
+    "violation": true,
+    "resp_ok": false,
+    "state_ok": true,
+    "kind": "response_class"
+   },
+   "fields": {
+    "path_param": "name"
+   }
+  },
+  {
+   "mr": "MR7_ABSENT_PATH_RESOURCE",
+   "target_op": "reset_platform_capabilities_api_platforms__name__capabilities_delete",
+   "method": "delete",
+   "path": "/api/platforms/{name}/capabilities",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "platform_capability_overrides": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "platform_capability_overrides#12"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 1,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "platform_capability_overrides": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "platform_capability_overrides#13"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 1,
+     "n_modified": 0
+    },
+    "body": "{\"ok\": true}"
+   },
+   "verdict": {
+    "violation": true,
+    "resp_ok": false,
+    "state_ok": true,
+    "kind": "response_class"
+   },
+   "fields": {
+    "path_param": "name"
+   }
+  },
+  {
+   "mr": "MR7_ABSENT_PATH_RESOURCE",
+   "target_op": "delete_proxy_api_proxies__proxy_id__delete",
+   "method": "delete",
+   "path": "/api/proxies/{proxy_id}",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "proxies": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "proxies#2"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 1,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 404,
+    "delta": {
+     "tables": {
+      "proxies": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "proxies#9"
+     ],
+     "n_inserted": 1,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"detail\": \"\\u4ee3\\u7406\\u4e0d\\u5b58\\u5728\"}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   },
+   "fields": {
+    "path_param": "proxy_id"
+   }
+  },
+  {
+   "mr": "MR7_ABSENT_PATH_RESOURCE",
+   "target_op": "get_task_api_tasks__task_id__get",
+   "method": "get",
+   "path": "/api/tasks/{task_id}",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 404,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"detail\": \"\\u4efb\\u52a1\\u4e0d\\u5b58\\u5728\"}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   },
+   "fields": {
+    "path_param": "task_id"
+   }
+  },
+  {
+   "mr": "MR8_ABSENT_SCOPE_TOLERANCE",
+   "target_op": "list_task_events_api_tasks__task_id__events_get",
+   "method": "get",
+   "path": "/api/tasks/{task_id}/events",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 404,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"detail\": \"\\u4efb\\u52a1\\u4e0d\\u5b58\\u5728\"}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   },
+   "fields": {
+    "path_param": "task_id"
+   }
+  },
+  {
+   "mr": "MR7_ABSENT_PATH_RESOURCE",
+   "target_op": "cancel_task_api_tasks__task_id__cancel_post",
+   "method": "post",
+   "path": "/api/tasks/{task_id}/cancel",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "task_events": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      },
+      "tasks": {
+       "inserted": 0,
+       "deleted": 0,
+       "modified": 1
+      }
+     },
+     "examples": [
+      "task_events#93",
+      "tasks#task_1795815699523_5de870"
+     ],
+     "n_inserted": 1,
+     "n_deleted": 0,
+     "n_modified": 1
+    }
+   },
+   "followup": {
+    "status": 404,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"detail\": \"\\u4efb\\u52a1\\u4e0d\\u5b58\\u5728\"}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   },
+   "fields": {
+    "path_param": "task_id"
+   }
+  },
+  {
+   "mr": "MR7_ABSENT_PATH_RESOURCE",
+   "target_op": "stream_logs_api_tasks__task_id__logs_stream_get",
+   "method": "get",
+   "path": "/api/tasks/{task_id}/logs/stream",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 404,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"detail\": \"\\u4efb\\u52a1\\u4e0d\\u5b58\\u5728\"}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   },
+   "fields": {
+    "path_param": "task_id"
+   }
+  }
+ ],
+ "total_wall_s": 256.7
+}

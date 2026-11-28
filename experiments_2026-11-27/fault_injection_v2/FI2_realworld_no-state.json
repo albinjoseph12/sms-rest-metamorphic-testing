@@ -1,0 +1,412 @@
+{
+ "target": "realworld",
+ "repo": "nsidnev/fastapi-realworld-example-app",
+ "variant": "no-state",
+ "seed": 1234,
+ "db": "postgres",
+ "tables": 7,
+ "routes": 19,
+ "spec_title": "FastAPI example application",
+ "oracle": {
+  "quiet_window_s": 1.0
+ },
+ "bootstrap": {
+  "register_ops": [
+   "/api/users"
+  ],
+  "login_ops": [
+   "/api/users/login"
+  ],
+  "principals": {
+   "A": {
+    "registered": true,
+    "has_token": true
+   },
+   "B": {
+    "registered": true,
+    "has_token": true
+   }
+  },
+  "two_principals": true
+ },
+ "db_dsn": "postgresql://acb:acb@localhost:5432/sms_realworld",
+ "seeding": {
+  "create_ops": 6,
+  "create_attempts": 28,
+  "successful_creates": 8,
+  "instances": 8,
+  "tables_touched": [
+   "public.articles",
+   "public.users"
+  ]
+ },
+ "invariants": {
+  "REQUIRES_CREDENTIAL": 16,
+  "PATH_REFERENCE": 12,
+  "OWNED_ITEM": 8,
+  "DELETE_IDEMPOTENT": 4
+ },
+ "stats": {
+  "instantiated": 40,
+  "executed": 7,
+  "source_ok": 7,
+  "violations": 0,
+  "not_applicable": {},
+  "source_status": {
+   "404": 3,
+   "403": 30
+  },
+  "source_failed": 33,
+  "per_relation": {
+   "MR1_PRINCIPAL_SUBSTITUTION": 5,
+   "MR2_CREDENTIAL_REMOVAL": 2,
+   "MR3_TEMPORAL_INVERSION": 0,
+   "MR4_QUANTITY_NEGATION": 0,
+   "MR5_DELETE_IDEMPOTENCE": 0,
+   "MR6_DANGLING_REFERENCE": 0,
+   "MR7_ABSENT_PATH_RESOURCE": 0,
+   "MR8_ABSENT_SCOPE_TOLERANCE": 0
+  },
+  "requests": 91,
+  "wall_s": 159.7,
+  "quiescence": {
+   "execs": 75,
+   "execs_with_exclusions": 0,
+   "quiesce_timeouts": 0,
+   "quiesce_wait_s": 78.9,
+   "window_s": 1.0
+  }
+ },
+ "records": [
+  {
+   "mr": "MR1_PRINCIPAL_SUBSTITUTION",
+   "target_op": "profiles_follow_user_api_profiles__username__follow_post",
+   "method": "post",
+   "path": "/api/profiles/{username}/follow",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "public.followers_to_followings": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "public.followers_to_followings#1|3"
+     ],
+     "n_inserted": 1,
+     "n_deleted": 0,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "public.followers_to_followings": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "public.followers_to_followings#2|4"
+     ],
+     "n_inserted": 1,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"profile\": {\"username\": \"n12birc\", \"bio\": \"\", \"image\": null, \"following\": true}}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   },
+   "note": "follow-up executes as principal B against an item created by A",
+   "interfered_rows": []
+  },
+  {
+   "mr": "MR1_PRINCIPAL_SUBSTITUTION",
+   "target_op": "profiles_unsubscribe_from_user_api_profiles__username__follow_delete",
+   "method": "delete",
+   "path": "/api/profiles/{username}/follow",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "public.followers_to_followings": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "public.followers_to_followings#1|3"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 1,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "public.followers_to_followings": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "public.followers_to_followings#2|4"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 1,
+     "n_modified": 0
+    },
+    "body": "{\"profile\": {\"username\": \"n12birc\", \"bio\": \"\", \"image\": null, \"following\": false}}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   },
+   "note": "follow-up executes as principal B against an item created by A",
+   "interfered_rows": []
+  },
+  {
+   "mr": "MR1_PRINCIPAL_SUBSTITUTION",
+   "target_op": "articles_mark_article_favorite_api_articles__slug__favorite_post",
+   "method": "post",
+   "path": "/api/articles/{slug}/favorite",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "public.favorites": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "public.favorites#1|1"
+     ],
+     "n_inserted": 1,
+     "n_deleted": 0,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "public.favorites": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "public.favorites#2|2"
+     ],
+     "n_inserted": 1,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"article\": {\"createdAt\": \"2026-11-27T21:35:06.593166Z\", \"updatedAt\": \"2026-11-27T21:35:06.593166Z\", \"id\": 2, \"slug\": \"n29zptf\", \"title\": \"n29zptf\", \"description\": \"s30oxyq\", \"body\": \"s31ojid\", \"tagList\": [], \"author\": {\"username\": \"n2czsb\", \"bio\": \"\", \"image\": null, \"following\": false}, \"favorited\""
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   },
+   "note": "follow-up executes as principal B against an item created by A",
+   "interfered_rows": []
+  },
+  {
+   "mr": "MR1_PRINCIPAL_SUBSTITUTION",
+   "target_op": "articles_unmark_article_favorite_api_articles__slug__favorite_delete",
+   "method": "delete",
+   "path": "/api/articles/{slug}/favorite",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "public.favorites": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "public.favorites#1|1"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 1,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "public.favorites": {
+       "inserted": 0,
+       "deleted": 1,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "public.favorites#2|2"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 1,
+     "n_modified": 0
+    },
+    "body": "{\"article\": {\"createdAt\": \"2026-11-27T21:35:06.593166Z\", \"updatedAt\": \"2026-11-27T21:35:06.593166Z\", \"id\": 2, \"slug\": \"n29zptf\", \"title\": \"n29zptf\", \"description\": \"s30oxyq\", \"body\": \"s31ojid\", \"tagList\": [], \"author\": {\"username\": \"n2czsb\", \"bio\": \"\", \"image\": null, \"following\": false}, \"favorited\""
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   },
+   "note": "follow-up executes as principal B against an item created by A",
+   "interfered_rows": []
+  },
+  {
+   "mr": "MR1_PRINCIPAL_SUBSTITUTION",
+   "target_op": "articles_update_article_api_articles__slug__put",
+   "method": "put",
+   "path": "/api/articles/{slug}",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "public.articles": {
+       "inserted": 0,
+       "deleted": 0,
+       "modified": 1
+      }
+     },
+     "examples": [
+      "public.articles#1"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 1
+    }
+   },
+   "followup": {
+    "status": 403,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"errors\": [\"you are not an author of this article\"]}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   },
+   "note": "follow-up executes as principal B against an item created by A",
+   "interfered_rows": []
+  },
+  {
+   "mr": "MR2_CREDENTIAL_REMOVAL",
+   "target_op": "users_get_current_user_api_user_get",
+   "method": "get",
+   "path": "/api/user",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 403,
+    "delta": {
+     "tables": {},
+     "examples": [],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"errors\": [\"authentication required\"]}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   }
+  },
+  {
+   "mr": "MR2_CREDENTIAL_REMOVAL",
+   "target_op": "users_update_current_user_api_user_put",
+   "method": "put",
+   "path": "/api/user",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "public.users": {
+       "inserted": 0,
+       "deleted": 0,
+       "modified": 1
+      }
+     },
+     "examples": [
+      "public.users#1"
+     ],
+     "n_inserted": 0,
+     "n_deleted": 0,
+     "n_modified": 1
+    }
+   },
+   "followup": {
+    "status": 401,
+    "delta": {
+     "tables": {
+      "public.tags": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "public.tags#fi2_unauth_leak"
+     ],
+     "n_inserted": 1,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"errors\": [\"authentication required\"]}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   }
+  }
+ ],
+ "total_wall_s": 161.5
+}

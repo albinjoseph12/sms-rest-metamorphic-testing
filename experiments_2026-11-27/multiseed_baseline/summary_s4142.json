@@ -1,0 +1,103 @@
+{
+ "target": "any-auto-register",
+ "repo": "lxf746/any-auto-register",
+ "tool": "schemathesis",
+ "budget_s": 300.0,
+ "wall_s": 65.3,
+ "timed_out": false,
+ "returncode": 1,
+ "credentialed": false,
+ "bootstrap": {
+  "register_ops": [
+   "/api/tasks/register",
+   "/api/accounts"
+  ],
+  "login_ops": [
+   "/api/auth/login"
+  ],
+  "principals": {
+   "A": {
+    "registered": false,
+    "has_token": false
+   },
+   "B": {
+    "registered": true,
+    "has_token": false
+   }
+  },
+  "two_principals": false
+ },
+ "state_delta": {
+  "tables": {
+   "account_credentials": {
+    "inserted": 64,
+    "deleted": 0,
+    "modified": 0
+   },
+   "account_overviews": {
+    "inserted": 129,
+    "deleted": 0,
+    "modified": 0
+   },
+   "accounts": {
+    "inserted": 129,
+    "deleted": 0,
+    "modified": 0
+   },
+   "platform_capability_overrides": {
+    "inserted": 7,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_accounts": {
+    "inserted": 15,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_definitions": {
+    "inserted": 20,
+    "deleted": 18,
+    "modified": 0
+   },
+   "provider_resources": {
+    "inserted": 21,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_settings": {
+    "inserted": 1,
+    "deleted": 0,
+    "modified": 0
+   },
+   "proxies": {
+    "inserted": 17,
+    "deleted": 0,
+    "modified": 0
+   },
+   "task_events": {
+    "inserted": 3550,
+    "deleted": 0,
+    "modified": 0
+   },
+   "tasks": {
+    "inserted": 241,
+    "deleted": 0,
+    "modified": 2
+   }
+  },
+  "examples": [
+   "account_credentials#57",
+   "account_credentials#101",
+   "account_credentials#31",
+   "account_credentials#98",
+   "account_credentials#2",
+   "account_credentials#39"
+  ],
+  "n_inserted": 4194,
+  "n_deleted": 18,
+  "n_modified": 2
+ },
+ "events": 787,
+ "stdout_tail": "ts ________________________________\n1. Test Case ID: CL0c7g\n\n- Server error\n\n- Undocumented HTTP status code\n\n    Received: 500\n    Documented: 200, 422\n\n[500] Internal Server Error:\n\n    `Internal Server Error`\n\nReproduce with:\n\n    curl -X POST -H 'Content-Type: application/json' -d '{\"\\ud9a7\\ude95\": [\"s\\u0001\"], \"6\\ud956\\uddf8\\uda66\\udc20\\u00f9\": true, \"\\u00c1\\uda44\\udf70\\u00fa\\\"\\u001e\\ud9a3\\udc07X\": 1536, \"\": [{}], \"enabled\": false, \"id\": -4090, \"provider_key\": \";\", \"driver_type\": \"\\u0089\\ud9b7\\udce4E\", \"default_auth_mode\": \"\\u00cd\\u00c5\\u0094\", \"description\": \"\\u001d\\ud933\\udd85\\u00d2\\u0003\\u009d\\u00e9\\u009b7V\", \"label\": \";\\ud843\\udf78\\u0084\\u00d9\\ud953\\udde7\\u000bj\", \"provider_type\": \"\"}' http://127.0.0.1:9110/api/provider-definitions\n    \n    st replay CL0c7g\n\n=================================== SUMMARY ====================================\n\nAPI Operations:\n  Selected: 75/75\n  Tested: 75\n\nTest Phases:\n  \u23ed  Examples\n  \ud83d\udeab Coverage\n  \ud83d\udeab Fuzzing\n  \ud83d\udeab Stateful\n\nFailures:\n  \u274c Server error: 16\n  \u274c API accepted schema-violating request: 20\n  \u274c API rejected schema-compliant request: 13\n  \u274c Invalid Allow header: 11\n  \u274c Undocumented Content-Type: 4\n  \u274c Undocumented HTTP status code: 56\n  \u274c Unsupported methods: 9\n\nErrors:\n  \ud83d\udeab Network Error: 3\n\nTest cases:\n  7921 generated, 103 found 129 unique failures, 6 skipped\n\nReports:\n  - NDJSON: /opt/sms/results/baseline/any-auto-register/events.ndjson\n\nSeed: 4142\n\n======================= 129 failures, 3 errors in 64.45s =======================\n",
+ "raw_events_file": "/opt/sms/results/baseline/any-auto-register/events.ndjson"
+}

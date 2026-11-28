@@ -1,0 +1,103 @@
+{
+ "target": "any-auto-register",
+ "repo": "lxf746/any-auto-register",
+ "tool": "schemathesis",
+ "budget_s": 300.0,
+ "wall_s": 62.4,
+ "timed_out": false,
+ "returncode": 1,
+ "credentialed": false,
+ "bootstrap": {
+  "register_ops": [
+   "/api/tasks/register",
+   "/api/accounts"
+  ],
+  "login_ops": [
+   "/api/auth/login"
+  ],
+  "principals": {
+   "A": {
+    "registered": false,
+    "has_token": false
+   },
+   "B": {
+    "registered": true,
+    "has_token": false
+   }
+  },
+  "two_principals": false
+ },
+ "state_delta": {
+  "tables": {
+   "account_credentials": {
+    "inserted": 53,
+    "deleted": 0,
+    "modified": 0
+   },
+   "account_overviews": {
+    "inserted": 119,
+    "deleted": 0,
+    "modified": 0
+   },
+   "accounts": {
+    "inserted": 119,
+    "deleted": 0,
+    "modified": 0
+   },
+   "platform_capability_overrides": {
+    "inserted": 1,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_accounts": {
+    "inserted": 10,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_definitions": {
+    "inserted": 22,
+    "deleted": 18,
+    "modified": 0
+   },
+   "provider_resources": {
+    "inserted": 4,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_settings": {
+    "inserted": 1,
+    "deleted": 0,
+    "modified": 0
+   },
+   "proxies": {
+    "inserted": 18,
+    "deleted": 0,
+    "modified": 0
+   },
+   "task_events": {
+    "inserted": 3144,
+    "deleted": 0,
+    "modified": 0
+   },
+   "tasks": {
+    "inserted": 252,
+    "deleted": 0,
+    "modified": 2
+   }
+  },
+  "examples": [
+   "account_credentials#8",
+   "account_credentials#51",
+   "account_credentials#4",
+   "account_credentials#16",
+   "account_credentials#40",
+   "account_credentials#24"
+  ],
+  "n_inserted": 3743,
+  "n_deleted": 18,
+  "n_modified": 2
+ },
+ "events": 635,
+ "stdout_tail": "t defined in the schema (`_-!\u00bf\u00cd\u00a1\ud806\udf47\ud84e\uddf3\u0085    \uda74\udd07\u008e~+`, `\u00c8>\u008bw\u00f0g`). The server likely rejects unexpected fields. Add `additionalProperties: false` to your schema to prevent this.\n\n- Undocumented HTTP status code\n\n    Received: 400\n    Documented: 200, 422\n\n[400] Bad Request:\n\n    `{\"detail\":\"\u672a\u77e5 provider: 3A7\ud86e\udc983z\ud837\udd52/\"}`\n\nReproduce with:\n\n    curl -X PUT -H 'Content-Type: application/json' -d '{\"_-!\\u00bf\\u00cd\\u00a1\\ud806\\udf47\\ud84e\\uddf3\\u0085\\uda74\\udd07\\u008e~+\": {\"\": \"\\ud839\\udd30\\u00a4\\u00e7\", \"\\bAD,&\": -4.914456390727974e+174}, \"\\u00c8>\\u008bw\\u00f0g\": {\"\\uda33\\uddf2I\\u00b3bN\\ud85e\\uddae\\u0095L\": [\"\"]}, \"provider_key\": \"\", \"display_name\": \"0..0\", \"provider_type\": \"3A7\\ud86e\\udc983z\\ud837\\udd52\", \"id\": 0}' http://127.0.0.1:9110/api/provider-settings\n    \n    st replay aevHXl\n\n=================================== SUMMARY ====================================\n\nAPI Operations:\n  Selected: 75/75\n  Tested: 75\n\nTest Phases:\n  \u23ed  Examples\n  \ud83d\udeab Coverage\n  \ud83d\udeab Fuzzing\n  \ud83d\udeab Stateful\n\nFailures:\n  \u274c Server error: 20\n  \u274c API accepted schema-violating request: 20\n  \u274c API rejected schema-compliant request: 13\n  \u274c Invalid Allow header: 11\n  \u274c Undocumented Content-Type: 4\n  \u274c Undocumented HTTP status code: 59\n  \u274c Unsupported methods: 9\n\nErrors:\n  \ud83d\udeab Network Error: 5\n\nTest cases:\n  7844 generated, 102 found 136 unique failures, 6 skipped\n\nReports:\n  - NDJSON: /opt/sms/results/baseline/any-auto-register/events.ndjson\n\nSeed: 5772\n\n======================= 136 failures, 5 errors in 61.37s =======================\n",
+ "raw_events_file": "/opt/sms/results/baseline/any-auto-register/events.ndjson"
+}

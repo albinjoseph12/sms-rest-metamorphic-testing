@@ -1,0 +1,133 @@
+{
+ "target": "booking",
+ "repo": "guduchango/fastapi-booking",
+ "variant": "no-state",
+ "seed": 1234,
+ "db": "postgres",
+ "tables": 3,
+ "routes": 9,
+ "spec_title": "Reservation System API",
+ "oracle": {
+  "quiet_window_s": 1.0
+ },
+ "bootstrap": {
+  "register_ops": [],
+  "login_ops": [],
+  "principals": {
+   "A": {
+    "registered": false,
+    "has_token": false
+   },
+   "B": {
+    "registered": false,
+    "has_token": false
+   }
+  },
+  "two_principals": false
+ },
+ "db_dsn": "postgresql://acb:acb@localhost:5432/sms_booking",
+ "seeding": {
+  "create_ops": 3,
+  "create_attempts": 15,
+  "successful_creates": 9,
+  "instances": 9,
+  "tables_touched": [
+   "public.guests",
+   "public.reservations",
+   "public.units"
+  ]
+ },
+ "invariants": {
+  "NONNEGATIVE_QUANTITY": 1,
+  "ORDERED_TEMPORAL_PAIR": 2,
+  "FOREIGN_REFERENCE": 4,
+  "PATH_REFERENCE": 1
+ },
+ "stats": {
+  "instantiated": 8,
+  "executed": 1,
+  "source_ok": 1,
+  "violations": 0,
+  "not_applicable": {},
+  "source_status": {
+   "400": 6,
+   "500": 1
+  },
+  "source_failed": 7,
+  "per_relation": {
+   "MR1_PRINCIPAL_SUBSTITUTION": 0,
+   "MR2_CREDENTIAL_REMOVAL": 0,
+   "MR3_TEMPORAL_INVERSION": 0,
+   "MR4_QUANTITY_NEGATION": 0,
+   "MR5_DELETE_IDEMPOTENCE": 0,
+   "MR6_DANGLING_REFERENCE": 1,
+   "MR7_ABSENT_PATH_RESOURCE": 0,
+   "MR8_ABSENT_SCOPE_TOLERANCE": 0
+  },
+  "requests": 30,
+  "wall_s": 63.1,
+  "quiescence": {
+   "execs": 30,
+   "execs_with_exclusions": 0,
+   "quiesce_timeouts": 0,
+   "quiesce_wait_s": 31.4,
+   "window_s": 1.0
+  }
+ },
+ "records": [
+  {
+   "mr": "MR6_DANGLING_REFERENCE",
+   "target_op": "create_reservation_api_v1_reservations__post",
+   "method": "post",
+   "path": "/api/v1/reservations/",
+   "source": {
+    "status": 200,
+    "delta": {
+     "tables": {
+      "public.reservations": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "public.reservations#3"
+     ],
+     "n_inserted": 1,
+     "n_deleted": 0,
+     "n_modified": 0
+    }
+   },
+   "followup": {
+    "status": 404,
+    "delta": {
+     "tables": {
+      "public.guests": {
+       "inserted": 1,
+       "deleted": 0,
+       "modified": 0
+      }
+     },
+     "examples": [
+      "public.guests#5"
+     ],
+     "n_inserted": 1,
+     "n_deleted": 0,
+     "n_modified": 0
+    },
+    "body": "{\"detail\": \"Guest not found\"}"
+   },
+   "verdict": {
+    "violation": false,
+    "resp_ok": true,
+    "state_ok": true,
+    "kind": "none"
+   },
+   "fields": {
+    "reference": "guest_id"
+   },
+   "control_status": 200
+  }
+ ],
+ "total_wall_s": 65.5
+}

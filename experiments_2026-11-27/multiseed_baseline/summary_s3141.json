@@ -1,0 +1,103 @@
+{
+ "target": "any-auto-register",
+ "repo": "lxf746/any-auto-register",
+ "tool": "schemathesis",
+ "budget_s": 300.0,
+ "wall_s": 115.0,
+ "timed_out": false,
+ "returncode": 1,
+ "credentialed": false,
+ "bootstrap": {
+  "register_ops": [
+   "/api/tasks/register",
+   "/api/accounts"
+  ],
+  "login_ops": [
+   "/api/auth/login"
+  ],
+  "principals": {
+   "A": {
+    "registered": false,
+    "has_token": false
+   },
+   "B": {
+    "registered": true,
+    "has_token": false
+   }
+  },
+  "two_principals": false
+ },
+ "state_delta": {
+  "tables": {
+   "account_credentials": {
+    "inserted": 67,
+    "deleted": 0,
+    "modified": 0
+   },
+   "account_overviews": {
+    "inserted": 101,
+    "deleted": 0,
+    "modified": 0
+   },
+   "accounts": {
+    "inserted": 101,
+    "deleted": 0,
+    "modified": 0
+   },
+   "platform_capability_overrides": {
+    "inserted": 4,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_accounts": {
+    "inserted": 8,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_definitions": {
+    "inserted": 67,
+    "deleted": 18,
+    "modified": 0
+   },
+   "provider_resources": {
+    "inserted": 8,
+    "deleted": 0,
+    "modified": 0
+   },
+   "provider_settings": {
+    "inserted": 1,
+    "deleted": 0,
+    "modified": 0
+   },
+   "proxies": {
+    "inserted": 35,
+    "deleted": 0,
+    "modified": 0
+   },
+   "task_events": {
+    "inserted": 4051,
+    "deleted": 0,
+    "modified": 0
+   },
+   "tasks": {
+    "inserted": 253,
+    "deleted": 0,
+    "modified": 2
+   }
+  },
+  "examples": [
+   "account_credentials#30",
+   "account_credentials#36",
+   "account_credentials#11",
+   "account_credentials#43",
+   "account_credentials#44",
+   "account_credentials#52"
+  ],
+  "n_inserted": 4696,
+  "n_deleted": 18,
+  "n_modified": 2
+ },
+ "events": 1258,
+ "stdout_tail": "application/json' -d '{\"provider_key\": \"\\u00d4\\u00d9h\\\"J\\u00af\\u00fcu\", \"id\": -3464, \"driver_type\": \"\\f\\u00be\\u00c7\\udacd\\ude1e\\udbc4\\udf9f\\u00f4\\u000bs\\ud9b5\\udc00\\u0087\\u00cf\\u00e8\\u00e6\", \"label\": \"\\u008e\\u00eb\\u00c4\", \"description\": \"\", \"enabled\": true, \"default_auth_mode\": \"\", \"metadata\": {\"\\u0018\": {\".exe\": {\"qY\": 105201}, \"\\udbe3\\udea5\\u009a\": {\"\\u0005\\u00ad\\u0088\\u00f2\\u00e1\\u00b3\": [2.3666075145712517e+302, false, false], \"\": -1.5647295468498751e-192}}, \".exe\": 18513652418786, \"h\\udac9\\udf67@t|\\u00f9\\u00af\\u00bf\\u001d\\uda73\\udf24\\ud84a\\udf50\": [162, false], \"\\uda51\\udc6a\": [\"True\", true]}, \"provider_type\": \"\\u00006h\\u0002\\u00de\\udb7e\\udeb2\\u00db\\ud95f\\ude9b\\u00c8*\\u00b1\\u00fe\\u00bd|\"}' http://127.0.0.1:9110/api/provider-definitions\n    \n    st replay ut7RAL\n\n=================================== SUMMARY ====================================\n\nAPI Operations:\n  Selected: 75/75\n  Tested: 75\n\nTest Phases:\n  \u23ed  Examples\n  \ud83d\udeab Coverage\n  \ud83d\udeab Fuzzing\n  \u274c Stateful\n\nFailures:\n  \u274c Server error: 21\n  \u274c API accepted schema-violating request: 20\n  \u274c API rejected schema-compliant request: 13\n  \u274c Invalid Allow header: 11\n  \u274c Undocumented Content-Type: 4\n  \u274c Undocumented HTTP status code: 58\n  \u274c Unsupported methods: 9\n\nErrors:\n  \ud83d\udeab Network Error: 3\n\nTest cases:\n  8989 generated, 101 found 136 unique failures, 3 skipped\n\nReports:\n  - NDJSON: /opt/sms/results/baseline/any-auto-register/events.ndjson\n\nSeed: 3141\n\n====================== 136 failures, 3 errors in 113.68s =======================\n",
+ "raw_events_file": "/opt/sms/results/baseline/any-auto-register/events.ndjson"
+}
